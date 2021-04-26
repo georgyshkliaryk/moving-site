@@ -1,12 +1,16 @@
 import React from "react";
 import "./Header.scss";
+import mainLogo from "../../../assets/images/logo_v3_notitle.svg";
 
 const Header = () => {
   return (
     <div>
       <nav className="nav__container">
         <div className="nav__title">
-            <a href="">MassMoving</a>
+          <a href="">
+            <img src={mainLogo} alt="main-logo" />
+            MassMoving
+          </a>
         </div>
         <div className="nav__links">
           <div className="nav__link">

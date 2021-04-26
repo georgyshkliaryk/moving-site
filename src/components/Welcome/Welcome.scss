@@ -1,0 +1,23 @@
+.welcome__container {
+    margin-top: 10rem;
+    font-size: 40px;
+    color: #404fd6;
+}
+.welcome__description {
+    font-size: 20px;
+    color: black;
+    width: 30%;
+    margin-right: 10rem;
+}
+.welcome__title {
+    margin-bottom: 4rem;
+}
+.welcome__section {
+    img {
+        width: 40rem;
+        border-radius: 10px;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
