@@ -1,0 +1,48 @@
+.image__container {
+  img {
+    width: 100%;
+  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+.test {
+    min-height: 45rem;
+}
+.image__title {
+    font-size: 50px;
+    text-align: right;
+    font-weight: bold;
+    color: #404fd6;
+    margin-bottom: 10rem;
+    margin-left: 5rem;
+    padding-right: 5rem;
+    .image__description {
+        font-size: 35px;
+        color: white;
+    }
+}
+.image__buttons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    margin-bottom: 5rem;
+    font-weight: bold;
+}
+.image__button {
+    color: #404fd6;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0 2rem;
+    border: solid 3px #404fd6;
+    i {
+        vertical-align: -3px;
+    }
+}
+.image__button:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #404fd6;
+}
