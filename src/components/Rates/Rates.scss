@@ -1,0 +1,25 @@
+.rates__container {
+    width: 100%;
+    margin-top: 5rem;
+    .fake {
+        min-height: 30rem;
+    }
+    .rates__container2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .rates__left {
+        width: 40%;
+        text-align: left;
+    }
+    .rates__right {
+        width: 40%;
+    }
+    .rates__title {
+        color: #404fd6;
+        font-size: 40px;
+        margin-bottom: 5rem;
+    }
+}
