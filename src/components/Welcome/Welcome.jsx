@@ -27,6 +27,7 @@ const Welcome = () => {
           local Boston moving company that provides the best value? Marathon’s
           competitive moving rates and top quality moving crews provide the
           value you are looking for in local movers in Massachusetts.
+          <a className="btn__more">More about our company</a>
         </div>
         <img src={welcomeLogo} alt="welcomeLogo"/>
       </div>

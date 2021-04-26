@@ -1,0 +1,41 @@
+.offers__container {
+    margin-top: 10rem;
+    font-size: 40px;
+    color: #404fd6;
+}
+.offers__title {
+    margin-bottom: 4rem;
+    font-weight: bold;
+}
+.offers__option {
+    width: calc(30rem + 2px);
+    border: 1px grey solid;
+    border-radius: 10px;
+    margin-right: 5rem;
+    img {
+        width: 30rem;
+        border-radius: 10px 10px 0 0;
+    }
+}
+.offers__option:hover {
+    transform: scale(1.05);
+}
+.offers__options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    #opt1 {
+        margin-left: 5rem;
+    }
+}
+.option__title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.option__description {
+    font-size: 25px;
+    color: black;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+}
