@@ -28,9 +28,28 @@ const Rates = () => {
             just $99 per hour.
           </div>
         </div>
-        <div className="rates__right">123</div>
-        <div className="rates__prices">123</div>
+        <div className="rates__right">
+          <div className="right1">
+            <div className="right1__title">HOURLY RATES</div>
+            <div className="right1__content">
+              <div className="right1__content__title">Starting from</div>
+              <div className="right1__price">$99/hr</div>
+            </div>
+          </div>
+          <div className="right2">
+            <div className="right2__title">LONG DISTANCE</div>
+            <div className="right2__content">
+              <div className="right2__content__title">Boston - New York</div>
+              <div className="right2__price"><span>from</span> $900</div>
+              <div className="right2__content__title">Florida</div>
+              <div className="right2__price"><span>from</span> $1050</div>
+              <div className="right2__content__title">California</div>
+              <div className="right2__price"><span>from</span> $1350</div>
+            </div>
+          </div>
+        </div>
       </div>
+      <a className="btn__more">See more prices</a>
     </div>
   );
 };
