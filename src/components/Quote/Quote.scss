@@ -1,0 +1,17 @@
+.quote__container {
+    margin: 10rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.quote__title {
+    font-size: 40px;
+    color: #404fd6;
+}
+.quote__form {
+    text-align: center;
+    input, select {
+        display: block;
+        width: 100%;
+    }
+}

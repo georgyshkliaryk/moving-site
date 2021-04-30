@@ -4,6 +4,7 @@ import HomeImage from "../../components/HomeImage/HomeImage";
 import Welcome from "../../components/Welcome/Welcome";
 import Offers from "../../components/Offers/Offers";
 import Rates from "../../components/Rates/Rates";
+import Quote from "../../components/Quote/Quote";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Welcome />
       <Offers />
       <Rates />
+      <Quote />
     </div>
   );
 };
