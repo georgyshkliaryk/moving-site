@@ -12,7 +12,7 @@ const Quote = () => {
                     <input type="date"/>
                     <select name="service" id="">
                         <option value="local">Local moving</option>
-                        <option value="long">Long distace moving</option>
+                        <option value="long">Long distace moving123</option>
                         <option value="office">Office/Commercial</option>
                         <option value="storage">Storage</option>
                     </select>
