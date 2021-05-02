@@ -49,7 +49,7 @@ const Rates = () => {
           </div>
         </div>
       </div>
-      <a className="btn__more">See more prices</a>
+      <a className="btn__more" id="contacts">See more prices</a>
     </div>
   );
 };

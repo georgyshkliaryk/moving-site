@@ -17,9 +17,9 @@ const HomeImage = () => {
           
         </div>
         <div className="image__buttons">
-            <a href="" className="image__button">More about us &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
-            <a href="" className="image__button">What we offer &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
-            <a href="" className="image__button">Pricing &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+            <a href="/about" className="image__button">More about us &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+            <a href="/services" className="image__button">What we offer &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+            <a href="/prices" className="image__button">Pricing &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
           </div>
       </Parallax>
     </div>

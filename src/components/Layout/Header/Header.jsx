@@ -26,7 +26,7 @@ const Header = () => {
             <a href="/about">About us</a>
           </div>
           <div className="nav__link">
-            <a href="">Contact us</a>
+            <a href="/#contacts">Contact us</a>
           </div>
         </div>
       </nav>

@@ -9,16 +9,13 @@ const Footer = () => {
         <a href="/" className="footer__link">
           Home
         </a>
-        <a href="" className="footer__link">
+        <a href="/services" className="footer__link">
           Services
         </a>
-        <a href="" className="footer__link">
+        <a href="/prices" className="footer__link">
           Prices
         </a>
-        <a href="" className="footer__link">
-          Contact us
-        </a>
-        <a href="" className="footer__link">
+        <a href="/about" className="footer__link">
           About us
         </a>
       </div>
@@ -26,7 +23,7 @@ const Footer = () => {
         <div className="footer__logo">
           <img src={logo} alt="footer-logo" />
           <div className="logo__description">
-            <b>MassMoving Company.</b> Clear pricing. Affordable rates.
+            <b>MassMoving Company.</b> <br/> Clear pricing. Affordable rates.
           </div>
         </div>
         <div className="footer__about">
