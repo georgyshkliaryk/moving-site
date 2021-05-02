@@ -7,23 +7,23 @@ const Header = () => {
     <div>
       <nav className="nav__container">
         <div className="nav__title">
-          <a href="">
+          <a href="/">
             <img src={mainLogo} alt="main-logo" />
             MassMoving
           </a>
         </div>
         <div className="nav__links">
           <div className="nav__link">
-            <a href="">Home</a>
+            <a href="/">Home</a>
           </div>
           <div className="nav__link">
-            <a href="">Services</a>
+            <a href="/services">Services</a>
           </div>
           <div className="nav__link">
-            <a href="">Prices</a>
+            <a href="/prices">Prices</a>
           </div>
           <div className="nav__link">
-            <a href="">About us</a>
+            <a href="/about">About us</a>
           </div>
           <div className="nav__link">
             <a href="">Contact us</a>

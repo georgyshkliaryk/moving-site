@@ -6,7 +6,7 @@ import rates from "../../assets/images/rates.jpg";
 const Rates = () => {
   return (
     <div className="rates__container">
-      <Parallax blur={0} bgImage={rates} bgImageAlt="the cat" strength={200}>
+      <Parallax blur={0} bgImage={rates} bgImageAlt="moving-family" strength={200}>
         <div className="fake"></div>
       </Parallax>
       <div className="rates__container2">

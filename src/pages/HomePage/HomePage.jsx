@@ -5,6 +5,7 @@ import Welcome from "../../components/Welcome/Welcome";
 import Offers from "../../components/Offers/Offers";
 import Rates from "../../components/Rates/Rates";
 import Quote from "../../components/Quote/Quote";
+import Footer from "../../components/Layout/Footer/Footer";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,8 @@ const HomePage = () => {
       <Offers />
       <Rates />
       <Quote />
+      <Footer />
+      
     </div>
   );
 };
