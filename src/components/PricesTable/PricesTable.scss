@@ -1,0 +1,49 @@
+.table__title {
+    color: #404fd6;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+.table__description {
+    font-size: 20px;
+    margin-bottom: 5rem;
+}
+.table__box {
+    border: solid 1px lightgrey;
+    margin: 0 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-right: 5rem;
+}
+.table__box__title {
+    width: 20rem;
+    font-size: 25px;
+    background-color: #404fd6;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+.table__box.fake {
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+}
+.table__box__title.fake {
+    background-color: white;
+}
+.table__box__title2 {
+        width: 20rem;
+        font-size: 25px;
+        background-color: red;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        padding: 2rem 0;
+}
+.table__price {
+    width: 5rem;
+}

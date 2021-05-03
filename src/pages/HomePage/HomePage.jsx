@@ -6,6 +6,7 @@ import Offers from "../../components/Offers/Offers";
 import Rates from "../../components/Rates/Rates";
 import Quote from "../../components/Quote/Quote";
 import Footer from "../../components/Layout/Footer/Footer";
+import WhyUs from "../../components/WhyUs/WhyUs";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Welcome />
       <Offers />
       <Rates />
+      <WhyUs />
       <Quote />
       <Footer />
       

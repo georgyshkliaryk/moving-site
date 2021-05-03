@@ -7,6 +7,7 @@ const WhyUs = () => {
       <div className="why__title">Why people choose MassMoving?</div>
       <div className="why__options">
         <div className="why__option">
+          <i class="fas fa-users"></i>
           <div className="why__option__title">Professional Young Team</div>
           <div className="why__option__description">
             Mass Movers are young professionals with 2+ years of experience in
@@ -15,6 +16,7 @@ const WhyUs = () => {
           </div>
         </div>
         <div className="why__option">
+          <i class="fas fa-umbrella"></i>
           <div className="why__option__title">We Care about Your Stuff</div>
           <div className="why__option__description">
             We protect your home and furniture with premium quality moving
@@ -23,6 +25,7 @@ const WhyUs = () => {
           </div>
         </div>
         <div className="why__option">
+          <i class="fas fa-id-badge"></i>
           <div className="why__option__title">Fully Licensed and Insured</div>
           <div className="why__option__description">
             You do not have to worry about anything, everything is under our
@@ -30,6 +33,7 @@ const WhyUs = () => {
           </div>
         </div>
         <div className="why__option">
+          <i class="fas fa-tools"></i>
           <div className="why__option__title">
             Assembling/Reassembling Furniture
           </div>
@@ -39,6 +43,7 @@ const WhyUs = () => {
           </div>
         </div>
         <div className="why__option">
+          <i class="fas fa-stopwatch"></i>
           <div className="why__option__title">
             Less than 30-minutes Respond Rate
           </div>
@@ -47,8 +52,9 @@ const WhyUs = () => {
             are always available during working hours and would also answer your
             questions 24/7 via email.
           </div>
-        </div>
+        </div> 
       </div>
+      
     </div>
   );
 };

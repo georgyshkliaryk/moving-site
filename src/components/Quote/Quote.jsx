@@ -5,7 +5,9 @@ import contacts from "../../assets/images/contacts.svg";
 const Quote = () => {
   return (
     <div>
+      <div className="why__quote__title" id="contacts">Stay in touch with Us!</div>
       <div className="quote__container">
+      
         <div className="quote">
           <div className="quote__title">
             <i class="fas fa-list"></i> Get a free quote now!
