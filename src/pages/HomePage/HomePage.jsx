@@ -19,7 +19,6 @@ const HomePage = () => {
       <WhyUs />
       <Quote />
       <Footer />
-      
     </div>
   );
 };

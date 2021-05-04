@@ -37,7 +37,7 @@ const Footer = () => {
       <div className="footer__info">
         151 Newton St, Waltham, MA, 02453. Licensing information: US DOT
         #3025065, MDPU #31853, MC #36474 <br/> © All Rights Reserved. MassMoving
-        Company. <br/> Privacy policy
+        Company. <br/> <a href="/privacy">Privacy policy</a>
       </div>
     </div>
   );
