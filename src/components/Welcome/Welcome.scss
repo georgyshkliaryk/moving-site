@@ -1,12 +1,12 @@
 .welcome__container {
-    margin-top: 10rem;
+    margin-top: 5rem;
     font-size: 40px;
     color: #404fd6;
 }
 .welcome__description {
     font-size: 20px;
     color: black;
-    width: 30%;
+    width: 60rem;
     margin-right: 10rem;
     a {
         display: block;
@@ -36,4 +36,16 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .welcome__description {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .welcome__section img {
+        width: 80%;
+        margin: 0 auto;
+    }
 }

@@ -1,5 +1,5 @@
 .quote__container {
-    margin: 10rem 0;
+    margin: 10rem auto;
     margin-bottom: 5rem;
     display: flex;
     flex-wrap: wrap;
@@ -57,7 +57,8 @@
     padding-top: 5rem;
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.75);
-    max-width: 35%;
+    // max-width: 35%;
+    width: 50rem;
 }
 .contacts__img {
     width: 30rem;

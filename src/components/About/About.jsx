@@ -27,6 +27,9 @@ const About = () => {
           </div>
         </div>
       </Parallax>
+      
+
+      
     </div>
   );
 };

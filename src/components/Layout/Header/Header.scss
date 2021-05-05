@@ -1,6 +1,7 @@
 .nav__container {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #404fd6;
     font-weight: bold;
     color: white;
@@ -30,6 +31,7 @@
 .nav__links {
     display: flex;
     margin-right: 4rem;
+    flex-wrap: wrap;
 }
 .nav__link {
     padding-left: 2.5rem;

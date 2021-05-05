@@ -1,7 +1,7 @@
 import React from "react";
 import "./Rates.scss";
 import { Parallax } from "react-parallax";
-import rates from "../../assets/images/rates.jpg";
+import rates from "../../assets/images/rates4.jpg";
 
 const Rates = () => {
   return (
