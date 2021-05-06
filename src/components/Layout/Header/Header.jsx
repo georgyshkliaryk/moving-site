@@ -9,7 +9,7 @@ const Header = () => {
         <div className="nav__title">
           <a href="/">
             <img src={mainLogo} alt="main-logo" />
-            MassMoving
+            <span>MassMoving</span>
           </a>
         </div>
         <div className="nav__links">
@@ -23,12 +23,16 @@ const Header = () => {
             <a href="/prices">Prices</a>
           </div>
           <div className="nav__link">
+            <a href="/">FAQ</a>
+          </div>
+          <div className="nav__link">
             <a href="/about">About us</a>
           </div>
           <div className="nav__link">
             <a href="/#contacts">Contact us</a>
           </div>
         </div>
+        <i class="fas fa-bars nav__hamburger"></i>
       </nav>
     </div>
   );

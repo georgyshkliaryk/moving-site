@@ -32,8 +32,8 @@
     }
   }
   a:hover {
-      text-decoration: none;
-      background-color: #303a92;
+    text-decoration: none;
+    background-color: #303a92;
   }
 }
 .offers__option:hover {
@@ -57,7 +57,41 @@
   min-height: 15rem;
 }
 .offers__description {
-    color: black;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .offers__description {
+    font-size: 20px;
+  }
+  .offers__option {
+    width: calc(20rem + 2px);
+    img {
+      width: 20rem;
+      height: 15rem;
+      border-radius: 10px 10px 0 0;
+    }
+  }
+  .option__description {
+    min-height: 18rem;
+  }
+  .offers__option:hover {
+    transform: none;
+  }
+  .offers__container {
+    margin-top: 5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .offers__title {
     font-size: 30px;
-    margin-bottom: 2rem;
+  }
+  .offers__description {
+    font-size: 20px;
+  }
+  .option__title {
+    font-size: 30px;
+  }
 }

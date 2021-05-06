@@ -15,6 +15,9 @@ const Footer = () => {
         <a href="/prices" className="footer__link">
           Prices
         </a>
+        <a href="/" className="footer__link">
+          FAQ
+        </a>
         <a href="/about" className="footer__link">
           About us
         </a>
@@ -35,10 +38,12 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__info">
-        151 Newton St, Waltham, MA, 02453. Licensing information: US DOT
+        <div>151 Newton St, Waltham, MA, 02453. Licensing information: US DOT
         #3025065, MDPU #31853, MC #36474 <br/> © All Rights Reserved. MassMoving
-        Company. <br/> <a href="/privacy">Privacy policy</a>
+        Company. </div>
+        <a href="/privacy">Privacy policy</a>
       </div>
+      
     </div>
   );
 };

@@ -94,3 +94,33 @@ iframe {
         transform: scale(1.2);
     }
 }
+
+@media screen and (max-width: 1300px) {
+    .quote__container {
+        margin: 10rem auto;
+    }
+    .quote__title {
+        font-size: 30px;
+    }
+    .contacts__links {
+        font-size: 20px;
+        margin-left: 5rem;
+    }
+    .quote {
+        // border: solid 1px #404fd6;
+        padding: 5rem 1rem;
+        padding-top: 5rem;
+        text-align: center;
+        width: 95%;
+    }
+    .contacts__img {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .quote__form {
+        select {
+            width: 85%;
+        }
+    }
+}

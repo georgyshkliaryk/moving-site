@@ -3,3 +3,9 @@
     text-align: center;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 680px) {
+    .carousel__container {
+        display: none;
+    }
+}

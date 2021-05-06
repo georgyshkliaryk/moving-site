@@ -40,9 +40,16 @@
 
 
 @media screen and (max-width: 1300px) {
+    .welcome__title {
+        font-size: 30px;
+    }
     .welcome__description {
-        width: 80%;
+        width: 95%;
         margin: 0 auto;
+        a {
+            padding: 1 1rem;
+            font-size: 25px;
+        }
     }
     .welcome__section img {
         width: 80%;

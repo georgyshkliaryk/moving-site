@@ -15,7 +15,7 @@
     color: white;
     margin-bottom: 5rem;
     margin-left: 5rem;
-    padding-right: 5rem;
+    padding-right: 5%;
     .image__description {
         font-size: 35px;
         color: #404fd6;
@@ -43,4 +43,22 @@
     color: white;
     text-decoration: none;
     background-color: #404fd6;
+}
+
+@media screen and (max-width: 1300px) {
+    .image__title {
+        text-align: center;
+        padding-right: 0;
+        margin: auto;
+        margin-bottom: 5rem;
+        font-size: 30px;
+        .image__description {
+            font-size: 25px;
+        }
+    }
+    .image__button {
+        margin-bottom: 1rem;
+        width: 95%;
+        font-size: 30px;
+    }
 }

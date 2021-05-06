@@ -50,3 +50,30 @@
     color: white;
     text-decoration: none;
 }
+.nav__hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .nav__links {
+        display: none;
+    }
+    .nav__hamburger {
+        display: block;
+        margin-right: 5rem;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .nav__title {
+        padding-left: 0rem;
+        span {
+            display: none;
+        }
+    }
+    .nav__hamburger {
+        font-size: 40px;
+        margin-right: 1rem;
+    }
+    
+}

@@ -1,76 +1,91 @@
 .rates__container {
-    width: 100%;
-    margin-top: 5rem;
-    .fake {
-        min-height: 30rem;
-    }
-    .rates__container2 {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 2rem;
-    }
-    .rates__left {
-        width: 40%;
-        text-align: left;
-    }
-    .rates__right {
-        width: 40%;
-        font-size: 20px;
-        color: black;
-    }
-    .rates__title {
-        color: #404fd6;
-        font-size: 40px;
-        margin-bottom: 5rem;
-    }
-    a {
-        display: block;
-        text-align: center;
-        background-color: #404fd6;
-        margin-top: 0rem;
-        border-radius: 10px;
-        padding: 0.2rem 0rem;
-        color: white;
-        font-size: 30px;
-        margin: 0 40rem;
-    }
-    a:hover {
-        text-decoration: none;
-        background-color: #303a92;
-        cursor: pointer;
-    }
-}
-.right1, .right2 {
+  width: 100%;
+  margin-top: 5rem;
+  .fake {
+    min-height: 30rem;
+  }
+  .rates__container2 {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    padding: 5rem 0;
-}
-.right1__title, .right2__title {
-    font-size: 30px;
+    margin-top: 2rem;
+  }
+  .rates__left {
+    width: 60rem;
+    text-align: left;
+  }
+  .rates__right {
+    width: 60rem;
+    //  width: 40%;
+    font-size: 20px;
+    color: black;
+  }
+  .rates__title {
     color: #404fd6;
-    font-weight: bold;
-}
-.right1__price, .right2__price {
+    font-size: 40px;
+    margin-bottom: 5rem;
+  }
+  a {
+    display: block;
+    text-align: center;
+    background-color: #404fd6;
+    margin-top: 0rem;
+    border-radius: 10px;
+    padding: 0.2rem 0rem;
+    color: white;
     font-size: 30px;
+    margin: 0 40rem;
+  }
+  a:hover {
+    text-decoration: none;
+    background-color: #303a92;
+    cursor: pointer;
+  }
+}
+.right1,
+.right2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 0;
+}
+.right1__title,
+.right2__title {
+  font-size: 30px;
+  color: #404fd6;
+  font-weight: bold;
+}
+.right1__price,
+.right2__price {
+  font-size: 30px;
 }
 .right1__price {
-    color: red;
+  color: red;
 }
 .right1 {
-    border-bottom: lightgrey 1px solid;
+  border-bottom: lightgrey 1px solid;
 }
 .right2__content__title {
-    color: #404fd6;
-    font-size: 25px;
+  color: #404fd6;
+  font-size: 25px;
 }
 .right2__price {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 
-    span {
-        font-size: 20px;
+  span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .rates__container {
+    .rates__title {
+      font-size: 30px;
     }
+    .rates__left {
+        padding: 0 1rem;
+    }
+  }
 }
