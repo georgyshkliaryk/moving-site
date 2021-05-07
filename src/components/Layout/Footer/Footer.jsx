@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="footer__logo">
           <img src={logo} alt="footer-logo" />
           <div className="logo__description">
-            <b>MassMoving Company.</b> <br/> Clear pricing. Affordable rates.
+            <b>VIP Movers Company.</b> <br/> Clear pricing. Affordable rates.
           </div>
         </div>
         <div className="footer__about">
@@ -39,8 +39,7 @@ const Footer = () => {
       </div>
       <div className="footer__info">
         <div>151 Newton St, Waltham, MA, 02453. Licensing information: US DOT
-        #3025065, MDPU #31853, MC #36474 <br/> © All Rights Reserved. MassMoving
-        Company. </div>
+        #3025065, MDPU #31853, MC #36474 <br/> © 2021 All Rights Reserved. VIP Movers Company. </div>
         <a href="/privacy">Privacy policy</a>
       </div>
       

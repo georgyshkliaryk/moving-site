@@ -6,9 +6,9 @@ const Movers = () => {
     <div>
       <div className="movers__container">
         <div className="movers__card">
-          <div className="card__title">2 Movers</div>
+          <div className="card__title">2 Movers + Truck</div>
           <div className="card__starting">Starting from</div>
-          <div className="card__price">$109/hr</div>
+          <div className="card__price">$115/hr</div>
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
             <div className="option2__title">Studio/1 bedroom apartment</div>
@@ -28,9 +28,9 @@ const Movers = () => {
           </div>
         </div>
         <div className="movers__card">
-          <div className="card__title">3 Movers</div>
+          <div className="card__title">3 Movers + Truck</div>
           <div className="card__starting">Starting from</div>
-          <div className="card__price">$149/hr</div>
+          <div className="card__price">$145/hr</div>
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
             <div className="option2__title">Studio/1 bedroom apartment</div>
@@ -50,9 +50,9 @@ const Movers = () => {
           </div>
         </div>
         <div className="movers__card">
-          <div className="card__title">4 Movers</div>
+          <div className="card__title">4 Movers + Truck</div>
           <div className="card__starting">Starting from</div>
-          <div className="card__price">$179/hr</div>
+          <div className="card__price">$185/hr</div>
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
             <div className="option2__title">Studio/1 bedroom apartment</div>

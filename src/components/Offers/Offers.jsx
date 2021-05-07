@@ -22,7 +22,7 @@ const Offers = () => {
           <img src={localImg} alt="localMoving" />
           <div className="option__title">Local moving</div>
           <div className="option__description">
-            MassMoving local Boston movers understand the Boston area and
+            VIP Movers understand the Boston area and
             specializes in all relocation services you need to make your move
             within the Boston area a breeze.
           </div>

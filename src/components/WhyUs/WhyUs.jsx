@@ -4,13 +4,13 @@ import "./WhyUs.scss";
 const WhyUs = () => {
   return (
     <div className="why__container">
-      <div className="why__title">Why people choose MassMoving?</div>
+      <div className="why__title">Why people choose VIP Movers?</div>
       <div className="why__options">
         <div className="why__option">
           <i class="fas fa-users"></i>
           <div className="why__option__title">Professional Young Team</div>
           <div className="why__option__description">
-            Mass Movers are young professionals with 2+ years of experience in
+            VIP Movers are young professionals with 2+ years of experience in
             the moving industry. Only full-time employees. No "contractors" or
             "one-day" laborers.
           </div>

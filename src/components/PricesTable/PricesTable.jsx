@@ -20,26 +20,26 @@ const PricesTable = () => {
         <div className="table__box">
           <div className="table__box__title">2 Movers & Truck</div>
           <div className="table__price">$109/hr</div>
-          <div className="table__price">$119/hr</div>
+          <div className="table__price">$115/hr</div>
           <div className="table__price">$129/hr</div>
-          <div className="table__price">$179/hr</div>
-          <div className="table__price">$250/hr</div>
+          <div className="table__price">$130/hr</div>
+          <div className="table__price">$145/hr</div>
         </div>
         <div className="table__box">
           <div className="table__box__title2">3 Movers & Truck</div>
           <div className="table__price">$149/hr</div>
-          <div className="table__price">$159/hr</div>
+          <div className="table__price">$145/hr</div>
           <div className="table__price">$179/hr</div>
-          <div className="table__price">$219/hr</div>
-          <div className="table__price">$300/hr</div>
+          <div className="table__price">$160/hr</div>
+          <div className="table__price">$180/hr</div>
         </div>
         <div className="table__box">
           <div className="table__box__title">4 Movers & Truck</div>
           <div className="table__price">$179/hr</div>
-          <div className="table__price">$199/hr</div>
+          <div className="table__price">$185/hr</div>
           <div className="table__price">$229/hr</div>
-          <div className="table__price">$269/hr</div>
-          <div className="table__price">$400/hr</div>
+          <div className="table__price">$210/hr</div>
+          <div className="table__price">$260/hr</div>
         </div>
         <div className="table__box">
           <div className="table__box__title2">Additional Movers/hr</div>

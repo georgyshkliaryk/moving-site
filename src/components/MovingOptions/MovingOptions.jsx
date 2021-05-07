@@ -1,6 +1,6 @@
 import React from "react";
 import "./MovingOptions.scss";
-import localImg from "../../assets/images/services-local.webp"
+import localImg from "../../assets/images/services-local.webp";
 import longImg from "../../assets/images/services-long.jpg";
 import packingImg from "../../assets/images/services-packing.jpg";
 import officeImg from "../../assets/images/services-office.png";
@@ -9,7 +9,7 @@ import storageImg from "../../assets/images/services-storage.jpg";
 const MovingOptions = () => {
   return (
     <div className="moving__container">
-        <div className="moving__page__title">Take a look at our services</div>
+      <div className="moving__page__title">Take a look at our services</div>
       <div className="moving__box">
         <div className="moving__left">
           <div className="moving__title">Local Movers</div>
@@ -17,14 +17,14 @@ const MovingOptions = () => {
             If you still think of moving belongings yourself instead of hiring
             professional local movers, there are some important things to
             consider before making the final moving decision. Professional
-            movers, who perform in the Greater Boston Local Moving services
-            area, will surely be better in almost every moving aspect. Movers
-            are familiar with the particular street locations and neighborhood
+            movers, who perform in the Boston Local Moving services area, will
+            surely be better in almost every moving aspect. VIP Movers are
+            familiar with the particular street locations and neighborhood
             hindrances, including truck restrictions, parking permits, traffic
-            appearances, and workarounds. <span>MassMovers</span> will send a
+            appearances, and workarounds. <span>VIP Movers</span> will send a
             representative for a visual estimate before the moving date, making
             sure the quote, a moving manager provided, is accurate and you are
-            not overcharged. What’s also important, Flash Moving Company will be
+            not overcharged. What’s also important, VIP Movers Company will be
             able to send additional movers and moving equipment any time extra
             help is required during the moving process. Hiring professionals
             movers means you won’t have to worry about any moving-related
@@ -32,18 +32,10 @@ const MovingOptions = () => {
             materials, covers, and waste of your time and money.
           </div>
         </div>
-        <img
-          src={localImg}
-          alt=""
-          className="moving__right adapt"
-        />
+        <img src={localImg} alt="" className="moving__right adapt" />
       </div>
       <div className="moving__box">
-        <img
-          src={longImg}
-          alt=""
-          className="moving__right"
-        />
+        <img src={longImg} alt="" className="moving__right" />
         <div className="moving__left adapt">
           <div className="moving__title">Long Distance Movers</div>
           <div className="moving__description">
@@ -53,7 +45,7 @@ const MovingOptions = () => {
             <br /> Have you ever heard one old storytelling about the hassle
             you’ll face while relocating from Boston to another state or moving
             across the country? Well, that’s an ancient myth. At least when it
-            comes to MassMovers. Our <span>
+            comes to VIP Movers. Our <span>
               Long Distance Moving Company
             </span>{" "}
             will take the stress out of any Interstate Move. <br />
@@ -68,37 +60,21 @@ const MovingOptions = () => {
         <div className="moving__left">
           <div className="moving__title">Packing Services</div>
           <div className="moving__description">
-            If you are trying to avoid extra costs and save some money on your
-            move, you should consider hiring professional packers. It’ll save
-            your time, your money and will leave the stress out of your move.{" "}
-            <br />
-            <br />
-            Any moving company that provides home packing services will send
-            experienced, professional packers to your place and will deliver all
-            necessary equipment such as boxes, packing paper, bubble wrap,
-            stretch and shrink wrap, rolls of tape, blankets, and home
-            protection. <br />
-            <br /> Packers will use special techniques and skills to make sure
-            your belongings are delivered safely and secured to any desired
-            destination, whether it is a local move within the Boston area or a
-            long-distance journey. <br />
-            <br /> With Flash Movers, you are guaranteed to receive an
-            outstanding, top-notch packing service and moving experience at
-            affordable pricing with no hidden fees.
+            Are you looking for affordable long distance movers? VIP movers can
+            move you from Massachusetts to anywhere in the United States. We
+            offer not only a great service but also affordable prices, with our
+            moving company all your belongings will make it safe to your new
+            home at the destination. Our company is Fully Licensed Insured! We
+            offer Flat Rates and we wont charge you extra hidden fees. We take
+            care of the packing, loading, delivery, and unloading. <br /> <br /> By hiring <span>VIP
+            Movers</span> for your long-distance move, you no longer have to worry
+            about your belongings making it safely to their new destination.
           </div>
         </div>
-        <img
-          src={packingImg}
-          alt=""
-          className="moving__right adapt"
-        />
+        <img src={packingImg} alt="" className="moving__right adapt" />
       </div>
       <div className="moving__box">
-        <img
-          src={storageImg}
-          alt=""
-          className="moving__right"
-        />
+        <img src={storageImg} alt="" className="moving__right" />
         <div className="moving__left adapt">
           <div className="moving__title">Short- and Long-Term Storage</div>
           <div className="moving__description">
@@ -110,14 +86,13 @@ const MovingOptions = () => {
             underestimate the importance of choosing an appropriate,
             well-maintained and climate-controlled storage unit for their needs.
             There are too many things to consider before making a storage
-            decision.
-            Even a week of extremely hot or cold temperatures could damage your
-            possessions. <br />
+            decision. Even a week of extremely hot or cold temperatures could
+            damage your possessions. <br />
             <br /> Whenever you need temporary storage, it is crucial to find
             moving professionals, experienced enough to take necessary care of
             your items and offer a storage solution that is right for you.{" "}
             <br /> <br />
-            <span>From $100 (per month)</span>
+            <span>From $130 (per month)</span>
           </div>
         </div>
       </div>
@@ -140,11 +115,7 @@ const MovingOptions = () => {
             always do it with a smile.
           </div>
         </div>
-        <img
-          src={officeImg}
-          alt=""
-          className="moving__right"
-        />
+        <img src={officeImg} alt="" className="moving__right" />
       </div>
       <a className="button__more" href="/prices">
         See full pricing

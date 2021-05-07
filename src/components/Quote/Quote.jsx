@@ -5,9 +5,10 @@ import contacts from "../../assets/images/contacts.svg";
 const Quote = () => {
   return (
     <div>
-      <div className="why__quote__title" id="contacts">Stay in touch with Us!</div>
+      <div className="why__quote__title" id="contacts">
+        Stay in touch with Us!
+      </div>
       <div className="quote__container">
-      
         <div className="quote">
           <div className="quote__title">
             <i class="fas fa-list"></i> Get a free quote now!
@@ -68,11 +69,11 @@ const Quote = () => {
           <div className="contacts__content">
             <div className="contacts__links">
               <div>
-                <i class="fas fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;+1-123-45-67
+                <i class="fas fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;(413) 841-6497
               </div>
               <div>
                 <i class="fas fa-envelope"></i>
-                &nbsp;&nbsp;&nbsp;massmoving@gmail.com
+                &nbsp;&nbsp;&nbsp;vipmoversboston@gmail.com
               </div>
               <div>
                 <i class="far fa-clock"></i>&nbsp;&nbsp;&nbsp;9am — 6pm
@@ -83,13 +84,25 @@ const Quote = () => {
               </div>
             </div>
             <div className="contacts__socials">
-              <a href="https://www.instagram.com" target="_blank" title="instagram.com">
+              <a
+                href="https://www.instagram.com/vipmoversboston/"
+                target="_blank"
+                title="instagram.com"
+              >
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="https://www.facebook.com" target="_blank" title="facebook.com">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                title="facebook.com"
+              >
                 <i class="fab fa-facebook"></i>
               </a>
-              <a href="https://www.whatsapp.com" target="_blank" title="whatsapp.com">
+              <a
+                href="https://www.whatsapp.com"
+                target="_blank"
+                title="whatsapp.com"
+              >
                 <i class="fab fa-whatsapp"></i>
               </a>
             </div>
