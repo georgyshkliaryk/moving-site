@@ -3,6 +3,9 @@
     font-size: 40px;
     margin-bottom: 1rem;
 }
+.table__container__mobile {
+    display: none;
+}
 .table__description {
     font-size: 20px;
     margin-bottom: 5rem;
@@ -46,4 +49,53 @@
 }
 .table__price {
     width: 5rem;
+}
+
+@media screen and (max-width: 1500px) {
+    .table__title {
+        margin-top: 5rem;
+        font-size: 30px;
+    }
+    .table__description {
+        margin-bottom: 3rem;
+    }
+    .table__box__title, .table__box__title2 {
+        font-size: 20px;
+        padding: 1rem 0;
+        width: 15rem;
+    }
+    .table_box {
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .table__container {
+        display: none;
+    }
+    .table__container__mobile {
+        display: block;
+    }
+    .table__box__mobile__title {
+        text-align: left;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+    .table__box__mobile {
+        border-radius: 10px;
+        border: 1px solid lightgrey;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+    .mobile__box {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
 }

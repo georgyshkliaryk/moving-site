@@ -52,6 +52,31 @@
 }
 .nav__hamburger {
     display: none;
+    input {
+        display: none;
+    }
+}
+.hamburger__content {
+    position: absolute;
+    padding-top: 2rem;
+    top: 4rem;
+    right: 0rem;
+    background-color: #404fd6;
+    opacity: 0.9;
+    display: none;
+    font-size: 30px;
+    border-radius: 0 0 0 10px;
+    a {
+        display: block;
+        color: white;
+        margin-bottom: 2rem;
+    }
+}
+#hamburger:checked ~ .hamburger__content {
+    display: block;
+}
+#hamburger:checked ~ label {
+    color: grey;
 }
 
 @media screen and (max-width: 1300px) {

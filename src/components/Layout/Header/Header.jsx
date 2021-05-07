@@ -23,7 +23,7 @@ const Header = () => {
             <a href="/prices">Prices</a>
           </div>
           <div className="nav__link">
-            <a href="/">FAQ</a>
+            <a href="/faq">FAQ</a>
           </div>
           <div className="nav__link">
             <a href="/about">About us</a>
@@ -32,7 +32,32 @@ const Header = () => {
             <a href="/#contacts">Contact us</a>
           </div>
         </div>
-        <i class="fas fa-bars nav__hamburger"></i>
+        <div className="nav__hamburger">
+          <input type="checkbox" id="hamburger" />
+          <label for="hamburger">
+            <i class="fas fa-bars"></i>
+          </label>
+          <div className="hamburger__content">
+            <div className="nav__link">
+              <a href="/">Home</a>
+            </div>
+            <div className="nav__link">
+              <a href="/services">Services</a>
+            </div>
+            <div className="nav__link">
+              <a href="/prices">Prices</a>
+            </div>
+            <div className="nav__link">
+              <a href="/faq">FAQ</a>
+            </div>
+            <div className="nav__link">
+              <a href="/about">About us</a>
+            </div>
+            <div className="nav__link">
+              <a href="/#contacts">Contact us</a>
+            </div>
+          </div>
+        </div>
       </nav>
     </div>
   );

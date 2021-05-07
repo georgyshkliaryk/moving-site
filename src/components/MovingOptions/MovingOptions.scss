@@ -28,7 +28,8 @@
     padding: 0.2rem 0rem;
     color: white;
     font-size: 30px;
-    margin: 0 40rem;
+    width: 35%;
+    margin: 0 auto;
     margin-top: 5rem;
   }
   a:hover {
@@ -38,13 +39,51 @@
   }
 }
 .moving__description {
-    font-size: 20px;
-    span {
-        color: #404fd6;
-    }
+  font-size: 20px;
+  span {
+    color: #404fd6;
+  }
 }
 .moving__page__title {
-    color: #404fd6;
-    font-size: 40px;
+  color: #404fd6;
+  font-size: 40px;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .moving__page__title {
+    font-size: 30px;
+  }
+  .moving__box {
+    .moving__title {
+      font-size: 25px;
+    }
+  }
+  .moving__container {
+    a {
+      width: 60%;
+      font-size: 25px;
+    }
+  }
+}
+@media screen and (max-width: 680px) {
+  .moving__box {
+    .moving__title {
+      font-size: 25px;
+    }
+    .moving__left {
+      width: 95%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .moving__container {
+    a {
+      width: 95%;
+    }
+  }
+  .adapt {
     margin-bottom: 5rem;
+  }
 }

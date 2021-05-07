@@ -22,3 +22,12 @@
     color: #404fd6;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 680px) {
+  .privacy__box {
+    width: 95%;
+  }
+  .privacy__box__title {
+    text-align: center;
+  }
+}

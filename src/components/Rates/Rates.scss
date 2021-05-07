@@ -35,7 +35,8 @@
     padding: 0.2rem 0rem;
     color: white;
     font-size: 30px;
-    margin: 0 40rem;
+    margin: 0 auto;
+    width: 40%;
   }
   a:hover {
     text-decoration: none;
@@ -81,11 +82,23 @@
 
 @media screen and (max-width: 1500px) {
   .rates__container {
+    a {
+      width: 70%;
+      font-size: 25px;
+    }
     .rates__title {
       font-size: 30px;
     }
     .rates__left {
         padding: 0 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .rates__container {
+    a {
+      width: 95%;
     }
   }
 }

@@ -58,6 +58,134 @@ const PricesTable = () => {
           <div className="table__price">$40/hr</div>
         </div>
       </div>
+
+      <div className="table__container__mobile">
+        <div className="table__box__mobile">
+          <div className="table__box__mobile__title">2 Movers & Truck</div>
+          <div className="table__price__mobile">
+            <div className="mobile__box">
+              <div className="mobile__left">Discount</div>
+              <div className="mobile__right">$109/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Regular</div>
+              <div className="mobile__right">$119/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Sub Peak</div>
+              <div className="mobile__right">$129/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Peak</div>
+              <div className="mobile__right">$179/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Hi-Peak</div>
+              <div className="mobile__right">$250/hr</div>
+            </div>
+          </div>
+        </div>
+        <div className="table__box__mobile">
+          <div className="table__box__mobile__title">3 Movers & Truck</div>
+          <div className="table__price__mobile">
+            <div className="mobile__box">
+              <div className="mobile__left">Discount</div>
+              <div className="mobile__right">$149/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Regular</div>
+              <div className="mobile__right">$159/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Sub Peak</div>
+              <div className="mobile__right">$179/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Peak</div>
+              <div className="mobile__right">$219/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Hi-Peak</div>
+              <div className="mobile__right">$300/hr</div>
+            </div>
+          </div>
+        </div>
+        <div className="table__box__mobile">
+          <div className="table__box__mobile__title">4 Movers & Truck</div>
+          <div className="table__price__mobile">
+            <div className="mobile__box">
+              <div className="mobile__left">Discount</div>
+              <div className="mobile__right">$179/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Regular</div>
+              <div className="mobile__right">$199/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Sub Peak</div>
+              <div className="mobile__right">$229/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Peak</div>
+              <div className="mobile__right">$269/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Hi-Peak</div>
+              <div className="mobile__right">$400/hr</div>
+            </div>
+          </div>
+        </div>
+        <div className="table__box__mobile">
+          <div className="table__box__mobile__title">Additional Movers/hr</div>
+          <div className="table__price__mobile">
+            <div className="mobile__box">
+              <div className="mobile__left">Discount</div>
+              <div className="mobile__right">$50/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Regular</div>
+              <div className="mobile__right">$50/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Sub Peak</div>
+              <div className="mobile__right">$50/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Peak</div>
+              <div className="mobile__right">$60/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Hi-Peak</div>
+              <div className="mobile__right">$70/hr</div>
+            </div>
+          </div>
+        </div>
+        <div className="table__box__mobile">
+          <div className="table__box__mobile__title">Additional Truck/hr</div>
+          <div className="table__price__mobile">
+            <div className="mobile__box">
+              <div className="mobile__left">Discount</div>
+              <div className="mobile__right">$40/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Regular</div>
+              <div className="mobile__right">$40/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Sub Peak</div>
+              <div className="mobile__right">$40/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Peak</div>
+              <div className="mobile__right">$40/hr</div>
+            </div>
+            <div className="mobile__box">
+              <div className="mobile__left">Hi-Peak</div>
+              <div className="mobile__right">$40/hr</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

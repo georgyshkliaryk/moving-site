@@ -35,7 +35,7 @@ const MovingOptions = () => {
         <img
           src={localImg}
           alt=""
-          className="moving__right"
+          className="moving__right adapt"
         />
       </div>
       <div className="moving__box">
@@ -44,7 +44,7 @@ const MovingOptions = () => {
           alt=""
           className="moving__right"
         />
-        <div className="moving__left">
+        <div className="moving__left adapt">
           <div className="moving__title">Long Distance Movers</div>
           <div className="moving__description">
             There are things for which you can watch forever: fire burning,
@@ -90,7 +90,7 @@ const MovingOptions = () => {
         <img
           src={packingImg}
           alt=""
-          className="moving__right"
+          className="moving__right adapt"
         />
       </div>
       <div className="moving__box">
@@ -99,7 +99,7 @@ const MovingOptions = () => {
           alt=""
           className="moving__right"
         />
-        <div className="moving__left">
+        <div className="moving__left adapt">
           <div className="moving__title">Short- and Long-Term Storage</div>
           <div className="moving__description">
             Choosing a moving company that would store your belongings is almost
@@ -146,7 +146,7 @@ const MovingOptions = () => {
           className="moving__right"
         />
       </div>
-      <a className="btn__more" href="/prices">
+      <a className="button__more" href="/prices">
         See full pricing
       </a>
     </div>
