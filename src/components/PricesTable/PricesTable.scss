@@ -1,101 +1,175 @@
 .table__title {
-    color: #404fd6;
-    font-size: 40px;
-    margin-bottom: 1rem;
+  color: #404fd6;
+  font-size: 40px;
+  margin-bottom: 1rem;
 }
 .table__container__mobile {
-    display: none;
+  display: none;
 }
 .table__description {
-    font-size: 20px;
-    margin-bottom: 5rem;
+  font-size: 20px;
+  margin-bottom: 5rem;
 }
 .table__box {
-    border: solid 1px lightgrey;
-    margin: 0 10%;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
-    padding-right: 5rem;
+  border: solid 1px lightgrey;
+  margin: 0 10%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-right: 5rem;
 }
 .table__box__title {
-    width: 20rem;
-    font-size: 25px;
-    background-color: #404fd6;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    padding: 2rem 0;
+  width: 20rem;
+  font-size: 25px;
+  background-color: #404fd6;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 2rem 0;
 }
 .table__box.fake {
-    border: none;
-    font-size: 15px;
-    font-weight: bold;
-    color: grey;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: grey;
 }
 .table__box__title.fake {
-    background-color: white;
+  background-color: white;
 }
 .table__box__title2 {
-        width: 20rem;
-        font-size: 25px;
-        background-color: red;
-        border-radius: 10px;
-        color: white;
-        font-weight: bold;
-        padding: 2rem 0;
+  width: 20rem;
+  font-size: 25px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 2rem 0;
 }
 .table__price {
-    width: 5rem;
+  width: 5rem;
 }
 
 @media screen and (max-width: 1500px) {
-    .table__title {
-        margin-top: 5rem;
-        font-size: 30px;
+  .table__title {
+    margin-top: 5rem;
+    font-size: 30px;
+  }
+  .table__description {
+    margin-bottom: 3rem;
+  }
+  .table__box__title,
+  .table__box__title2 {
+    font-size: 20px;
+    padding: 1rem 0;
+    width: 15rem;
+  }
+  .table_box {
+    margin: 0 5%;
+  }
+}
+.table__subtitle {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.table__subtitle.last {
+  margin-top: -2rem;
+}
+
+.long__prices__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  img {
+    width: 30rem;
+    margin-bottom: 1rem;
+  }
+  span {
+    color: #404fd6;
+    font-weight: bold;
+  }
+}
+.long__prices__box {
+  margin-bottom: 5rem;
+}
+.storage__prices__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 20rem;
+}
+.storage__prices__box {
+  border: lightgrey solid 1px;
+  width: 30rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.storage__title {
+  font-weight: bold;
+}
+.storage__price.sale {
+  p {
+    text-decoration: line-through;
+    display: inline;
+  }
+  span {
+    color: red;
+  }
+}
+.long__mobile__box {
+    margin-bottom: 2rem;
+    img {
+        width: 95%;
     }
-    .table__description {
-        margin-bottom: 3rem;
-    }
-    .table__box__title, .table__box__title2 {
-        font-size: 20px;
-        padding: 1rem 0;
-        width: 15rem;
-    }
-    .table_box {
-        margin: 0 5%;
+    span {
+        color: #404fd6;
+        font-weight: bold;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .table__container {
-        display: none;
-    }
-    .table__container__mobile {
-        display: block;
-    }
-    .table__box__mobile__title {
-        text-align: left;
-        font-weight: bold;
-        font-size: 25px;
-        margin-bottom: 1rem;
-    }
-    .table__box__mobile {
-        border-radius: 10px;
-        border: 1px solid lightgrey;
-        width: 95%;
-        margin: 0 auto;
-        margin-bottom: 2rem;
-        padding: 1rem;
-    }
-    .mobile__box {
-        display: flex;
-        justify-content: space-between;
-        padding: 0.5rem 1rem;
-        border: 1px solid lightgrey;
-        border-radius: 10px;
-        margin-bottom: 1rem;
-    }
+  .table__container {
+    display: none;
+  }
+  .table__container__mobile {
+    display: block;
+  }
+  .table__box__mobile__title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 1rem;
+  }
+  .table__box__mobile {
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+  .mobile__box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  .storage__prices__box {
+      width: 95%;
+  }
+  .storage__prices__container {
+    margin: 0;
+  }
+  .table__subtitle.last {
+      margin-top: 5rem;
+  }
 }

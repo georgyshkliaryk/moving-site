@@ -1,0 +1,29 @@
+.faq__container {
+    margin: 0 20rem;
+    margin-top: 10rem;
+    text-align: left;
+    
+}
+.faq__title {
+    color: #404fd6;
+    font-size: 40px;
+}
+.faq__card {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+.faq__card__title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .faq__container {
+        margin: 0 auto;
+        margin-top: 5rem;
+        width: 95%;
+    }
+}

@@ -15,7 +15,7 @@ const Footer = () => {
         <a href="/prices" className="footer__link">
           Prices
         </a>
-        <a href="/" className="footer__link">
+        <a href="/faq" className="footer__link">
           FAQ
         </a>
         <a href="/about" className="footer__link">
@@ -40,9 +40,8 @@ const Footer = () => {
       </div>
       <div className="footer__info">
         <div>
-          151 Newton St, Waltham, MA, 02453. Licensing information: US DOT
-          #3025065, MDPU #31853, MC #36474 <br /> © 2021 All Rights Reserved.
-          VIP Movers Company.{" "}
+          31 Pearson Rd , Somerville 02144, MA. <br /> © 2021 All Rights
+          Reserved. VIP Movers Company.{" "}
         </div>
         <a href="/privacy">Privacy policy</a>
       </div>

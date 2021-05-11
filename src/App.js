@@ -15,6 +15,7 @@ import ScrollUp from './components/ScrollUp/ScrollUp';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import PrivacyPage from './pages/PrivacyPage/PrivacyPage';
 import CovidPage from './pages/CovidPage/CovidPage';
+import FaqPage from './pages/FaqPage/FaqPage';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           </Route>
           <Route exact path="/services">
             <ServicesPage />
+          </Route>
+          <Route exact path="/faq">
+            <FaqPage />
           </Route>
           <Route exact path="/privacy">
             <PrivacyPage />
