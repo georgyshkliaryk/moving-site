@@ -1,0 +1,29 @@
+.covid__text {
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    text-align: left;
+    width: 80%;
+}
+.covid__title {
+    font-size: 30px;
+    color: #404fd6;
+    margin-bottom: 2rem;
+    i {
+        font-size: 40px;
+        padding-right: 2rem;
+    }
+}
+.covid__contact {
+    text-align: left;
+    width: 80%;
+    margin: 7rem auto;
+    span {
+        color: #404fd6;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .covid__title {
+        font-size: 25px;
+    }
+}

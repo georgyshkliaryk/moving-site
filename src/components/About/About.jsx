@@ -17,19 +17,18 @@ const About = () => {
         <div className="about__content">
           <div className="about__title">About our company</div>
           <div className="about__description">
-            Our team offers commercial, residential, local, office and long-distance
-            moving services. As well as packing, POD loading/unloading, inside
-            move and storage services. <br/> <br /> We are young and promising company. That is why we aimed our business strategy on
-            providing great quality service and creating excellent teamwork of
-            professionals in order to make you feel safe and relaxed before,
-            during, and after your move day. <br/> <br /> No unexpected surprises or extra
-            charges. Only high-quality moving and custom service.
+            Our movers can help with industrial, residential, state, office, and
+            long-distance moves. Packing, POD loading/unloading, inside
+            transfer, and storage facilities are also available. <br /> <br />{" "}
+            We are a new and exciting company. That is why, in order to make you
+            feel comfortable and relaxed before, during, and after your
+            transfer, we focused our business plan on delivering excellent
+            service and forming an excellent team of professionals. <br />{" "}
+            <br /> There are no hidden fees or taxes. Only the best moving and
+            custom services are provided.
           </div>
         </div>
       </Parallax>
-      
-
-      
     </div>
   );
 };

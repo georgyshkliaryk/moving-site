@@ -5,6 +5,7 @@ import mainLogo from "../../../assets/images/logo_v4.svg";
 const Header = () => {
   return (
     <div>
+      <div className="header__covid">We are open! <a href="/covid-updates">Read updates regarding COVID-19</a>.</div>
       <nav className="nav__container">
         <div className="nav__title">
           <a href="/">

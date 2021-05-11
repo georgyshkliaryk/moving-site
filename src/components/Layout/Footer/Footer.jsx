@@ -26,23 +26,26 @@ const Footer = () => {
         <div className="footer__logo">
           <img src={logo} alt="footer-logo" />
           <div className="logo__description">
-            <b>VIP Movers Company.</b> <br/> Clear pricing. Affordable rates.
+            <b>VIP Movers Company.</b> <br /> Picked by you, packed by us.
           </div>
         </div>
         <div className="footer__about">
-          Our team of dedicated professionals are familiar with every Boston
-          neighborhood and meets every building requirements. Fully Licensed and
-          Insured You do not have to worry about anything, everything is under
-          our control. Every crew member is a part of a professionally trained
-          team. We use special tools to perform a fast and effective job.
+          Every Boston neighborhood is familiar to our team of committed
+          professionals, and we fulfill all building specifications. Fully
+          Insured and Licensed You don't have to be concerned about anything
+          because everything is in our possession. Every member of the crew is
+          part of a well-trained team. To complete a job quickly and
+          efficiently, we employ specialized equipment.
         </div>
       </div>
       <div className="footer__info">
-        <div>151 Newton St, Waltham, MA, 02453. Licensing information: US DOT
-        #3025065, MDPU #31853, MC #36474 <br/> © 2021 All Rights Reserved. VIP Movers Company. </div>
+        <div>
+          151 Newton St, Waltham, MA, 02453. Licensing information: US DOT
+          #3025065, MDPU #31853, MC #36474 <br /> © 2021 All Rights Reserved.
+          VIP Movers Company.{" "}
+        </div>
         <a href="/privacy">Privacy policy</a>
       </div>
-      
     </div>
   );
 };

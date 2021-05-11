@@ -17,19 +17,21 @@ const WhyUs = () => {
         </div>
         <div className="why__option">
           <i class="fas fa-umbrella"></i>
-          <div className="why__option__title">We Care about Your Stuff</div>
+          <div className="why__option__title">
+            We're concerned about your stuff.
+          </div>
           <div className="why__option__description">
-            We protect your home and furniture with premium quality moving
-            blankets and use special door-jamb and banister protections. You can
-            check out some pictures here.
+            We use high quality moving blankets and special door-jamb and
+            banister protections to protect your home and furniture. You can see
+            some of the photos <a href="/about">here</a>.
           </div>
         </div>
         <div className="why__option">
           <i class="fas fa-id-badge"></i>
-          <div className="why__option__title">Fully Licensed and Insured</div>
+          <div className="why__option__title">Fully Insured and Licensed</div>
           <div className="why__option__description">
-            You do not have to worry about anything, everything is under our
-            control.
+            You don't have to be concerned about anything, everything is in our
+            possession.
           </div>
         </div>
         <div className="why__option">
@@ -38,23 +40,22 @@ const WhyUs = () => {
             Assembling/Reassembling Furniture
           </div>
           <div className="why__option__description">
-            Every crew member is a part of a professionally trained team. We use
-            special tools to perform a fast and effective job.
+            Every member of the crew is part of a well-trained team. To complete
+            a job quickly and efficiently, we employ specialized equipment.
           </div>
         </div>
         <div className="why__option">
           <i class="fas fa-stopwatch"></i>
           <div className="why__option__title">
-            Less than 30-minutes Respond Rate
+            30 minutes or less Rate of response
           </div>
           <div className="why__option__description">
-            Our managers typically answer your requests within 30 minutes. We
-            are always available during working hours and would also answer your
-            questions 24/7 via email.
+            In most cases, our managers respond to your requests within 30
+            minutes. We are available during business hours and will respond to
+            your questions via email 24 hours a day, 7 days a week.
           </div>
-        </div> 
+        </div>
       </div>
-      
     </div>
   );
 };

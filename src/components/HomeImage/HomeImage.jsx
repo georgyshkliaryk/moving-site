@@ -13,7 +13,7 @@ const HomeImage = () => {
         <div className="test"></div>
         <div className="image__title">
           Your First Choice for the Best Boston Moving Company!
-          <div className="image__description">Clear pricing. Affordable rates.</div>
+          <div className="image__description">Picked by you, packed by us.</div>
           
         </div>
         <div className="image__buttons">

@@ -7,12 +7,14 @@ import Quote from '../../components/Quote/Quote';
 
 import Carousel from "../../components/Carousel/Carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Yelp from '../../components/Yelp/Yelp';
 
 const AboutPage = () => {
     return (
         <div>
            <Header />
            <About />
+           <Yelp />
            <WhyUs />
            <Carousel />
            <Quote />

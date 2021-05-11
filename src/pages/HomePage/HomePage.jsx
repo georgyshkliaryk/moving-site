@@ -7,15 +7,18 @@ import Rates from "../../components/Rates/Rates";
 import Quote from "../../components/Quote/Quote";
 import Footer from "../../components/Layout/Footer/Footer";
 import WhyUs from "../../components/WhyUs/WhyUs";
+import Yelp from "../../components/Yelp/Yelp";
 
 const HomePage = () => {
   return (
     <div>
+
       <Header />
       <HomeImage />
       <Welcome />
       <Offers />
       <Rates />
+      <Yelp />
       <WhyUs />
       <Quote />
       <Footer />

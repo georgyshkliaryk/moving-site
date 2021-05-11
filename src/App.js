@@ -14,6 +14,7 @@ import ServicesPage from './pages/ServicesPage/ServicesPage';
 import ScrollUp from './components/ScrollUp/ScrollUp';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import PrivacyPage from './pages/PrivacyPage/PrivacyPage';
+import CovidPage from './pages/CovidPage/CovidPage';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route exact path="/privacy">
             <PrivacyPage />
+          </Route>
+          <Route exact path="/covid-updates">
+            <CovidPage />
           </Route>
           <Route component={NotFoundPage}/>
         </Switch>

@@ -17,10 +17,10 @@ const PricesImage = () => {
         <ContactHeader />
         <div className="prices__content">
           <div className="prices__title">
-            Moving prices. Without any hidden fees and extra charges
+            Moving prices. There are no hidden fees or additional costs.
           </div>
           <div className="prices__description">
-            MassMoving provide fair prices for all types of moving, whether it
+            VIP Movers Company provides fair prices for all types of moving, whether it
             be local moving, <br /> interstate moving, commercial moving,
             packaging or storing – we can help.
           </div>

@@ -35,6 +35,12 @@
   margin-top: 5rem;
   margin-bottom: -5rem;
 }
+.why__option {
+  a {
+    color: #404fd6;
+    text-decoration: none;
+  }
+}
 
 @media screen and (max-width: 1300px) {
   .why__container {
