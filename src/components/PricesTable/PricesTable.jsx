@@ -25,7 +25,7 @@ const PricesTable = () => {
           <div className="table__price">Peak</div>
           <div className="table__price">Hi-Peak</div>
         </div>
-        <div className="table__box">
+        <div className="table__box wow flipInX">
           <div className="table__box__title">2 Movers & Truck</div>
           <div className="table__price">$109/hr</div>
           <div className="table__price">$115/hr</div>
@@ -33,7 +33,7 @@ const PricesTable = () => {
           <div className="table__price">$130/hr</div>
           <div className="table__price">$145/hr</div>
         </div>
-        <div className="table__box">
+        <div className="table__box ">
           <div className="table__box__title2">3 Movers & Truck</div>
           <div className="table__price">$149/hr</div>
           <div className="table__price">$145/hr</div>
@@ -41,7 +41,7 @@ const PricesTable = () => {
           <div className="table__price">$160/hr</div>
           <div className="table__price">$180/hr</div>
         </div>
-        <div className="table__box">
+        <div className="table__box  wow flipInX" data-wow-delay="0.2s">
           <div className="table__box__title">4 Movers & Truck</div>
           <div className="table__price">$179/hr</div>
           <div className="table__price">$185/hr</div>
@@ -57,7 +57,7 @@ const PricesTable = () => {
           <div className="table__price">$60/hr</div>
           <div className="table__price">$70/hr</div>
         </div>
-        <div className="table__box">
+        <div className="table__box  wow flipInX" data-wow-delay="0.4s">
           <div className="table__box__title">Additional Truck/hr</div>
           <div className="table__price">$40/hr</div>
           <div className="table__price">$40/hr</div>

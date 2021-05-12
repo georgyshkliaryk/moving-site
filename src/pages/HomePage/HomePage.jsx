@@ -9,10 +9,10 @@ import Footer from "../../components/Layout/Footer/Footer";
 import WhyUs from "../../components/WhyUs/WhyUs";
 import Yelp from "../../components/Yelp/Yelp";
 
-const HomePage = () => {
+class HomePage extends React.Component {
+  render() {
   return (
     <div>
-
       <Header />
       <HomeImage />
       <Welcome />
@@ -24,6 +24,7 @@ const HomePage = () => {
       <Footer />
     </div>
   );
+  }
 };
 
 export default HomePage;

@@ -5,7 +5,7 @@ const Movers = () => {
   return (
     <div>
       <div className="movers__container">
-        <div className="movers__card">
+        <div className="movers__card wow fadeInUp">
           <div className="card__title">2 Movers + Truck</div>
           <div className="card__starting">Starting from</div>
           <div className="card__price">$115/hr</div>
@@ -27,7 +27,7 @@ const Movers = () => {
             <i class="fas fa-check-circle"></i>
           </div>
         </div>
-        <div className="movers__card">
+        <div className="movers__card wow fadeInUp" data-wow-delay="0.2s">
           <div className="card__title">3 Movers + Truck</div>
           <div className="card__starting">Starting from</div>
           <div className="card__price">$145/hr</div>
@@ -49,7 +49,7 @@ const Movers = () => {
             <i class="fas fa-check-circle"></i>
           </div>
         </div>
-        <div className="movers__card">
+        <div className="movers__card wow fadeInUp" data-wow-delay="0.4s">
           <div className="card__title">4 Movers + Truck</div>
           <div className="card__starting">Starting from</div>
           <div className="card__price">$185/hr</div>

@@ -13,7 +13,7 @@ const MovingOptions = () => {
       <div className="moving__box">
         <div className="moving__left">
           <div className="moving__title">Local Movers</div>
-          <div className="moving__description">
+          <div className="moving__description wow fadeInLeft">
             If you're still considering moving your belongings yourself rather
             than hiring licensed local movers, there are a few items to think
             about before making your final decision. Skilled movers who work in
@@ -39,7 +39,7 @@ const MovingOptions = () => {
         <img src={longImg} alt="" className="moving__right" />
         <div className="moving__left adapt">
           <div className="moving__title">Long Distance Movers</div>
-          <div className="moving__description">
+          <div className="moving__description wow fadeInRight">
             There are some things that you will watch for an eternity: a fire
             burning, water streaming, a starry sky shining brightly, and skilled
             movers packing your <span>Long Distance Move</span>. <br />
@@ -59,7 +59,7 @@ const MovingOptions = () => {
       <div className="moving__box">
         <div className="moving__left">
           <div className="moving__title">Packing Services</div>
-          <div className="moving__description">
+          <div className="moving__description wow fadeInLeft">
             Are you on the lookout for low-cost long-distance movers? You can
             hire VIP movers to transport you from Massachusetts to any location
             in the United States. We provide not only excellent service but also
@@ -78,7 +78,7 @@ const MovingOptions = () => {
         <img src={storageImg} alt="" className="moving__right" />
         <div className="moving__left adapt">
           <div className="moving__title">Short- and Long-Term Storage</div>
-          <div className="moving__description">
+          <div className="moving__description wow fadeInRight">
             Choosing a moving company to store your belongings is similar to
             deciding which bank to open a savings account with. It needs to be
             dependable, trustworthy, and, of course, safe and stable. <br />
@@ -98,7 +98,7 @@ const MovingOptions = () => {
       <div className="moving__box">
         <div className="moving__left">
           <div className="moving__title">Office/Commercial Moving</div>
-          <div className="moving__description">
+          <div className="moving__description wow fadeInLeft">
             Moving your business or <span>office</span>? We realize that
             commercial transfers must often take place outside of normal
             business hours, and we are happy to help. It's our pleasure, as

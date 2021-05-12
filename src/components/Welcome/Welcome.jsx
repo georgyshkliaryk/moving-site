@@ -9,7 +9,7 @@ const Welcome = () => {
         Welcome to VIP Movers Company - New Boston MA Movers Company!
       </div>
       <div className="welcome__section">
-        <div className="welcome__description">
+        <div className="welcome__description wow fadeInLeft">
           We have a simple mission – to help take the stress out of relocating.
           Whether you have been planning to move into your dream home, need to
           move for work, or have an unexpected reason, we are here for you.{" "}
@@ -23,7 +23,7 @@ const Welcome = () => {
             More about our company
           </a>
         </div>
-        <img src={welcomeLogo} alt="welcomeLogo" />
+        <img src={welcomeLogo} alt="welcomeLogo" className="wow fadeInRight" />
       </div>
     </div>
   );

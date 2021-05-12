@@ -1,12 +1,24 @@
 .faq__container {
     margin: 0 20rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
     text-align: left;
+
+    input, label {
+        font-size: 40px;
+        display: inline;
+        cursor: pointer;
+        vertical-align: -5px;
+    }
+    input {
+        display: none;
+    }
     
 }
 .faq__title {
     color: #404fd6;
     font-size: 40px;
+    display: inline-block;
+    margin-top: 5rem;
 }
 .faq__card {
     margin-top: 3rem;
@@ -20,10 +32,30 @@
     margin-bottom: 3rem;
 }
 
+#faq1:checked ~ .faq1, #faq2:checked ~ .faq2, #faq3:checked ~ .faq3, #faq4:checked ~ .faq4 {
+    display: block;
+}
+
+#faq1:checked ~ .faq1__label .fa-caret-down, #faq2:checked ~ .faq2__label .fa-caret-down, #faq3:checked ~ .faq3__label .fa-caret-down, #faq4:checked ~ .faq4__label .fa-caret-down {
+    display: none;
+}
+
+#faq1:not(:checked) ~ .faq1__label .fa-caret-up, #faq2:not(:checked) ~ .faq2__label .fa-caret-up, #faq3:not(:checked) ~ .faq3__label .fa-caret-up, #faq4:not(:checked) ~ .faq4__label .fa-caret-up {
+    display: none;
+}
+
+.faq1, .faq2, .faq3, .faq4 {
+    display: none;
+}
+
+
 @media screen and (max-width: 1300px) {
     .faq__container {
         margin: 0 auto;
         margin-top: 5rem;
         width: 95%;
+    }
+    .faq__title {
+        font-size: 30px;
     }
 }

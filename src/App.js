@@ -16,8 +16,15 @@ import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import PrivacyPage from './pages/PrivacyPage/PrivacyPage';
 import CovidPage from './pages/CovidPage/CovidPage';
 import FaqPage from './pages/FaqPage/FaqPage';
+import React from 'react';
 
-function App() {
+import WOW from "wowjs";
+
+class App extends React.Component {
+  componentDidMount() {
+    new WOW.WOW({ mobile:false }).init();
+  }
+  render() {
   return (
     <div className="App">
       <Router>
@@ -49,6 +56,7 @@ function App() {
       <ScrollUp />
     </div>
   );
+  }
 }
 
 export default App;

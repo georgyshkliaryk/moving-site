@@ -14,13 +14,18 @@ const HomeImage = () => {
         <div className="image__title">
           Your First Choice for the Best Boston Moving Company!
           <div className="image__description">Picked by you, packed by us.</div>
-          
         </div>
         <div className="image__buttons">
-            <a href="/about" className="image__button">More about us &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
-            <a href="/services" className="image__button">What we offer &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
-            <a href="/prices" className="image__button">Pricing &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
-          </div>
+          <a href="/about" className="image__button wow fadeIn">
+            More about us &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="/services" className="image__button wow fadeIn">
+            What we offer &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="/prices" className="image__button wow fadeIn">
+            Pricing &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
       </Parallax>
     </div>
   );

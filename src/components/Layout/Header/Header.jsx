@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="nav__container">
         <div className="nav__title">
           <a href="/">
-            <img src={mainLogo} alt="main-logo" />
+            <img src={mainLogo} alt="main-logo" className="wow rubberBand"/>
             <span>VIP Movers</span>
           </a>
         </div>

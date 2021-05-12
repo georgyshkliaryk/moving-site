@@ -9,7 +9,7 @@ const Quote = () => {
         Stay in touch with Us!
       </div>
       <div className="quote__container">
-        <div className="quote">
+        <div className="quote wow jackInTheBox" data-wow-delay="0.5s">
           <div className="quote__title">
             <i class="fas fa-list"></i> Get a free quote now!
             <div className="quote__title__content">
@@ -65,7 +65,7 @@ const Quote = () => {
           </div>
         </div>
         <div className="contacts">
-          <img src={contacts} alt="contacts" className="contacts__img" />
+          <img src={contacts} alt="contacts" className="contacts__img wow fadeInRight" data-wow-delay="0.3s" />
           <div className="contacts__content">
             <div className="contacts__links">
               <div>
