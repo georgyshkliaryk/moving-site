@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.scss";
 import mainLogo from "../../../assets/images/logo_v4.svg";
+import mainLogo3 from "../../../assets/images/main-logo3.png";
 
 const Header = () => {
   return (
@@ -9,8 +10,7 @@ const Header = () => {
       <nav className="nav__container">
         <div className="nav__title">
           <a href="/">
-            <img src={mainLogo} alt="main-logo" className="wow rubberBand"/>
-            <span>VIP Movers</span>
+            <img src={mainLogo3} alt="main-logo" className="wow rubberBand"/>
           </a>
         </div>
         <div className="nav__links">

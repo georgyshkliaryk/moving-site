@@ -23,14 +23,14 @@
     color: black;
   }
   .rates__title {
-    color: #404fd6;
+    color: #f44336;
     font-size: 40px;
     margin-bottom: 5rem;
   }
   a {
     display: block;
     text-align: center;
-    background-color: #404fd6;
+    background-color: #f44336;
     margin-top: 0rem;
     border-radius: 10px;
     padding: 0.2rem 0rem;
@@ -41,7 +41,7 @@
   }
   a:hover {
     text-decoration: none;
-    background-color: #303a92;
+    background-color: #922720;
     cursor: pointer;
   }
 }
@@ -56,7 +56,7 @@
 .right1__title,
 .right2__title {
   font-size: 30px;
-  color: #404fd6;
+  color: #f44336;
   font-weight: bold;
 }
 .right1__price,
@@ -64,13 +64,13 @@
   font-size: 30px;
 }
 .right1__price {
-  color: red;
+  color: #404fd6;
 }
 .right1 {
   border-bottom: lightgrey 1px solid;
 }
 .right2__content__title {
-  color: #404fd6;
+  color: #f44336;
   font-size: 25px;
 }
 .right2__price {

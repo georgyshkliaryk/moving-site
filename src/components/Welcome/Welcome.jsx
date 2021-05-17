@@ -1,6 +1,7 @@
 import React from "react";
 import "./Welcome.scss";
 import welcomeLogo from "../../assets/images/welcome2.svg";
+import welcomeLogo2 from "../../assets/images/welcome3.svg";
 
 const Welcome = () => {
   return (
@@ -23,7 +24,7 @@ const Welcome = () => {
             More about our company
           </a>
         </div>
-        <img src={welcomeLogo} alt="welcomeLogo" className="wow fadeInRight" />
+        <img src={welcomeLogo2} alt="welcomeLogo" className="wow fadeInRight" />
       </div>
     </div>
   );

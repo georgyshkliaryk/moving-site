@@ -1,6 +1,7 @@
 import React from "react";
 import "./Quote.scss";
 import contacts from "../../assets/images/contacts.svg";
+import contacts2 from "../../assets/images/contacts2.svg";
 
 const Quote = () => {
   return (
@@ -65,7 +66,7 @@ const Quote = () => {
           </div>
         </div>
         <div className="contacts">
-          <img src={contacts} alt="contacts" className="contacts__img wow fadeInRight" data-wow-delay="0.3s" />
+          <img src={contacts2} alt="contacts" className="contacts__img wow fadeInRight" data-wow-delay="0.3s" />
           <div className="contacts__content">
             <div className="contacts__links">
               <div>

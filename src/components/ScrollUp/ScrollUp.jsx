@@ -6,7 +6,7 @@ export default class ScrollUp extends React.Component {
     return (
       <div>
         <ScrollUpButton
-        style={{backgroundColor: 'rgba(64, 79, 214, 0.7)', borderRadius: '10px'}}>
+        style={{backgroundColor: 'rgba(244, 67, 54, 0.7)', borderRadius: '10px'}}>
         </ScrollUpButton>
       </div>
     );

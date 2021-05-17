@@ -1,7 +1,7 @@
 .offers__container {
   margin-top: 10rem;
   font-size: 40px;
-  color: #404fd6;
+  color: #f44336;
   padding-left: 5rem;
   padding-right: 5rem;
 }
@@ -22,7 +22,7 @@
   }
   a {
     color: white;
-    background-color: #404fd6;
+    background-color: #f44336;
     width: 100%;
     display: block;
     border-radius: 0 0 10px 10px;
@@ -33,12 +33,12 @@
   }
   a:hover {
     text-decoration: none;
-    background-color: #303a92;
+    background-color: #922720;
   }
 }
-.offers__option:hover {
-  transform: scale(1.05);
-}
+// .offers__option:hover {
+//   transform: scale(1.05);
+// }
 .offers__options {
   display: flex;
   flex-wrap: wrap;

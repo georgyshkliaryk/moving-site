@@ -18,7 +18,7 @@ const Offers = () => {
         Take a look at what we offer and choose the right one for you:
       </div>
       <div className="offers__options">
-        <div className="offers__option wow zoomIn" id="opt1">
+        <div className="offers__option" id="opt1">
           <img src={localImg} alt="localMoving" />
           <div className="option__title">Local moving</div>
           <div className="option__description">
@@ -30,7 +30,7 @@ const Offers = () => {
             Read more &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
           </a>
         </div>
-        <div className="offers__option wow zoomIn" data-wow-delay="0.2s">
+        <div className="offers__option">
           <img src={longImg} alt="longMoving" />
           <div className="option__title">Long distance moving</div>
           <div className="option__description">
@@ -43,7 +43,7 @@ const Offers = () => {
             Read more &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
           </a>
         </div>
-        <div className="offers__option wow zoomIn" data-wow-delay="0.4s">
+        <div className="offers__option">
           <img src={packingImg} alt="packing" />
           <div className="option__title">Packing services</div>
           <div className="option__description">
@@ -55,7 +55,7 @@ const Offers = () => {
             Read more &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
           </a>
         </div>
-        <div className="offers__option wow zoomIn" data-wow-delay="0.6s" id="opt4">
+        <div className="offers__option" id="opt4">
           <img src={officeImg} alt="office" />
           <div className="option__title">Office/Commercial</div>
           <div className="option__description">
@@ -67,7 +67,7 @@ const Offers = () => {
             Read more &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
           </a>
         </div>
-        <div className="offers__option wow zoomIn" data-wow-delay="0.8s" id="opt4">
+        <div className="offers__option" id="opt4">
           <img src={storageImg} alt="office"/>
           <div className="option__title">Storage</div>
           <div className="option__description">

@@ -18,7 +18,7 @@
     padding-right: 5%;
     .image__description {
         font-size: 35px;
-        color: #404fd6;
+        color: #fdf3d9;
     }
 }
 .image__buttons {
@@ -30,11 +30,11 @@
     font-weight: bold;
 }
 .image__button {
-    color: #404fd6;
+    color: #f44336;
     background-color: white;
     border-radius: 15px;
     padding: 0 2rem;
-    border: solid 3px #404fd6;
+    border: solid 3px #f44336;
     i {
         vertical-align: -3px;
     }
@@ -42,7 +42,7 @@
 .image__button:hover {
     color: white;
     text-decoration: none;
-    background-color: #404fd6;
+    background-color: #f44336;
 }
 
 @media screen and (max-width: 1300px) {

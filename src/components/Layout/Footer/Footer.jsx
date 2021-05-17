@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.scss";
 import logo from "../../../assets/images/logo_v4.svg";
+import logo3 from "../../../assets/images/main-logo2.png";
 
 const Footer = () => {
   return (
@@ -24,7 +25,7 @@ const Footer = () => {
       </div>
       <div className="footer__content">
         <div className="footer__logo">
-          <img src={logo} alt="footer-logo" />
+          <img src={logo3} alt="footer-logo" />
           <div className="logo__description">
             <b>VIP Movers Company.</b> <br /> Picked by you, packed by us.
           </div>
