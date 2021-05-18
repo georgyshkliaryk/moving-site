@@ -82,6 +82,9 @@
     color: black;
     margin-bottom: 2rem;
   }
+  i {
+    font-size: 40px;
+  }
 }
 #hamburger:checked ~ .hamburger__content {
   display: block;
@@ -112,7 +115,7 @@
     margin-right: 1rem;
   }
   .header__covid {
-    font-size: 17px;
+    font-size: 16px;
   }
   .nav__container {
     top: 1.5rem;
