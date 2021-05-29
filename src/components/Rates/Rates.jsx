@@ -38,7 +38,7 @@ const Rates = () => {
             <div className="right1__title">HOURLY RATES</div>
             <div className="right1__content">
               <div className="right1__content__title">Starting from</div>
-              <div className="right1__price">$109/hr</div>
+              <div className="right1__price">$125/hr</div>
             </div>
           </div>
           <div className="right2">

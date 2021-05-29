@@ -8,7 +8,7 @@ const Movers = () => {
         <div className="movers__card wow fadeInUp">
           <div className="card__title">2 Movers + Truck</div>
           <div className="card__starting">Starting from</div>
-          <div className="card__price">$115/hr</div>
+          <div className="card__price">$125/hr</div>
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
             <div className="option2__title">Studio/1 bedroom apartment</div>
@@ -30,7 +30,7 @@ const Movers = () => {
         <div className="movers__card wow fadeInUp" data-wow-delay="0.2s">
           <div className="card__title">3 Movers + Truck</div>
           <div className="card__starting">Starting from</div>
-          <div className="card__price">$145/hr</div>
+          <div className="card__price">$160/hr</div>
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
             <div className="option2__title">Studio/1 bedroom apartment</div>
@@ -52,7 +52,7 @@ const Movers = () => {
         <div className="movers__card wow fadeInUp" data-wow-delay="0.4s">
           <div className="card__title">4 Movers + Truck</div>
           <div className="card__starting">Starting from</div>
-          <div className="card__price">$185/hr</div>
+          <div className="card__price">$199/hr</div>
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
             <div className="option2__title">Studio/1 bedroom apartment</div>

@@ -7,7 +7,7 @@ const Welcome = () => {
   return (
     <div className="welcome__container">
       <div className="welcome__title">
-        Welcome to VIP Movers Company - New Boston MA Movers Company!
+        Welcome to VIP Moving - New Boston MA Movers Company!
       </div>
       <div className="welcome__section">
         <div className="welcome__description wow fadeInLeft">
@@ -19,7 +19,7 @@ const Welcome = () => {
           and specialized in cross country moves. Our founder has worked
           alongside & handpicked the team members at VIP because they are the
           best professionals in safety protocols and handling your important
-          belongings. 
+          belongings.
           <a className="btn__more" href="/about">
             More about our company
           </a>

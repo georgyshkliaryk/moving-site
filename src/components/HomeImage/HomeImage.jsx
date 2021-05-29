@@ -2,7 +2,7 @@ import React from "react";
 import "./HomeImage.scss";
 import { Parallax } from "react-parallax";
 
-import logo from "../../assets/images/home-image-blur2.jpg";
+import logo from "../../assets/images/home-image-blur4.jpg";
 import ContactHeader from "../ContactHeader/ContactHeader";
 
 const HomeImage = () => {
