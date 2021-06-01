@@ -22,7 +22,7 @@ export default class Header extends React.Component {
         <nav className="nav__container">
           <div className="nav__title">
             <a href="/">
-              <img src={mainLogo3} alt="main-logo" className="wow rubberBand" />
+              <img src={mainLogo3} alt="main-logo" />
             </a>
           </div>
           <div className="nav__links">
@@ -30,10 +30,27 @@ export default class Header extends React.Component {
               <a href="/">Home</a>
             </div>
             <div className="nav__link">
-              <a href="/services">Services</a>
+              <a href="/services" id="services">
+                Services <i class="fas fa-angle-down"></i>
+              </a>
+              <div className="services__sub">
+                <a href="/services/#local">Local Moving</a>
+                <a href="/services/#long">Long Distance</a>
+                <a href="/services/#packing">Packing Services</a>
+                <a href="/services/#storage">Storage</a>
+                <a href="/services/#office">Office/Commercial</a>
+              </div>
             </div>
+
             <div className="nav__link">
-              <a href="/prices">Prices</a>
+              <a href="/prices" id="prices">
+                Prices <i class="fas fa-angle-down"></i>
+              </a>
+              <div className="services__sub">
+                <a href="/prices/#local-prices">Local&nbsp;Moving&nbsp;Prices</a>
+                <a href="/prices/#long-prices">Long&nbsp;Distance&nbsp;Prices</a>
+                <a href="/prices/#storage-prices">Storage&nbsp;Prices</a>
+              </div>
             </div>
             <div className="nav__link">
               <a href="/faq">FAQ</a>

@@ -37,7 +37,7 @@
         border-radius: 5px;
         border: 1px solid #f44336;
         padding-left: 0.5rem;
-        width: 90%;
+        width: 85%;
     }
     button {
         background-color: #f44336;
@@ -95,6 +95,20 @@ iframe {
     }
 }
 
+.input__flex {
+    display: flex;
+    
+    justify-content: center;
+    margin: 0 auto;
+    input {
+        margin-right: 0rem;
+        width: calc(42.5% - 0.5rem);
+    }
+    #first-name, #move-from {
+        margin-right: 1rem;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     .quote__container {
         margin: 10rem auto;
@@ -123,5 +137,9 @@ iframe {
         select {
             width: 85%;
         }
+    }
+    .contacts__links {
+        margin: 0 auto;
+        width: 95%;
     }
 }

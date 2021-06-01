@@ -20,6 +20,20 @@ const Quote = () => {
           </div>
           <form action="" className="quote__form">
             <div className="input__container">
+              <div className="input__flex">
+                <span>
+                  <i class="fas fa-user-alt"></i>
+                </span>
+                <input
+                  type="text"
+                  name="first-name"
+                  placeholder="First Name"
+                  id="first-name"
+                />
+                <input type="text" name="last-name" placeholder="Last Name" />
+              </div>
+            </div>
+            <div className="input__container">
               <span>
                 <i class="fas fa-envelope"></i>
               </span>
@@ -47,6 +61,20 @@ const Quote = () => {
               />
             </div>
             <div className="input__container">
+              <div className="input__flex">
+                <span>
+                  <i class="fas fa-map-marker-alt"></i>
+                </span>
+                <input
+                  type="text"
+                  name="move-from"
+                  placeholder="Move From"
+                  id="move-from"
+                />
+                <input type="text" name="move-to" placeholder="Move To" />
+              </div>
+            </div>
+            <div className="input__container">
               <span>
                 <i class="fas fa-box-open"></i>
               </span>
@@ -55,6 +83,21 @@ const Quote = () => {
                 <option value="long">Long distace moving</option>
                 <option value="office">Office/Commercial</option>
                 <option value="storage">Storage</option>
+              </select>
+            </div>
+            <div className="input__container">
+              <span>
+                <i class="fas fa-home"></i>
+              </span>
+              <select name="service" id="">
+                <option value="local">Room or less apartment</option>
+                <option value="long">Studio</option>
+                <option value="office">1 bedroom apartment</option>
+                <option value="storage">2 bedroom apartment</option>
+                <option value="long">3 bedroom apartment</option>
+                <option value="office">1 bedroom house</option>
+                <option value="storage">2 bedroom house</option>
+                <option value="storage">3 bedroom house</option>
               </select>
             </div>
             <button type="submit">Request a quote</button>
@@ -66,7 +109,12 @@ const Quote = () => {
           </div>
         </div>
         <div className="contacts">
-          <img src={contacts2} alt="contacts" className="contacts__img wow fadeInRight" data-wow-delay="0.3s" />
+          <img
+            src={contacts2}
+            alt="contacts"
+            className="contacts__img wow fadeInRight"
+            data-wow-delay="0.3s"
+          />
           <div className="contacts__content">
             <div className="contacts__links">
               <div>
@@ -80,8 +128,8 @@ const Quote = () => {
                 <i class="far fa-clock"></i>&nbsp;&nbsp;&nbsp;9am — 6pm
               </div>
               <div>
-                <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;&nbsp;151
-                31 Pearson Rd , Somerville 02144
+                <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;&nbsp;151 31
+                Pearson Rd , Somerville 02144
               </div>
             </div>
             <div className="contacts__socials">
@@ -110,7 +158,11 @@ const Quote = () => {
           </div>
         </div>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.226900023373!2d-71.11670508430635!3d42.40161314046856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e376d8cfb914c3%3A0x9681ce0b21c872d0!2zMzEgUGVhcnNvbiBSZCwgU29tZXJ2aWxsZSwgTUEgMDIxNDQsINCh0KjQkA!5e0!3m2!1sru!2sby!4v1620771053814!5m2!1sru!2sby" allowfullscreen="" loading="lazy"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.226900023373!2d-71.11670508430635!3d42.40161314046856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e376d8cfb914c3%3A0x9681ce0b21c872d0!2zMzEgUGVhcnNvbiBSZCwgU29tZXJ2aWxsZSwgTUEgMDIxNDQsINCh0KjQkA!5e0!3m2!1sru!2sby!4v1620771053814!5m2!1sru!2sby"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
     </div>
   );
 };

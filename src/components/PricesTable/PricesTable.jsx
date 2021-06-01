@@ -12,7 +12,7 @@ const PricesTable = () => {
   return (
     <div className="prices__table__container">
       <div className="table__title">How can you get our services?</div>
-      <div className="table__description">
+      <div className="table__description" id="local-prices">
         See the table below for fixed hourly rates on moving home.
       </div>
       <div className="table__container">
@@ -47,7 +47,7 @@ const PricesTable = () => {
           <div className="table__price">$40/hr</div>
           <div className="table__price">$50/hr</div>
         </div>
-        <div className="table__box  wow flipInX" data-wow-delay="0.4s">
+        <div className="table__box  wow flipInX" data-wow-delay="0.4s" id="long-prices">
           <div className="table__box__title">Additional Truck/hr</div>
           <div className="table__price">$40/hr</div>
           <div className="table__price">$40/hr</div>
@@ -75,7 +75,7 @@ const PricesTable = () => {
             <img src={nashvilleImg} alt="nashville" />
             <div className="long__prices__text"><span>Nashville, TN</span> - Starting at $3100</div>
           </div>
-          <div className="long__prices__box">
+          <div className="long__prices__box" id="storage-prices">
             <img src={chicagoImg} alt="chicago" />
             <div className="long__prices__text"><span>Chicago</span> - Starting at $3000</div>
           </div>

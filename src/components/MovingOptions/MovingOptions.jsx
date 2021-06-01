@@ -8,7 +8,7 @@ import storageImg from "../../assets/images/services-storage.jpg";
 
 const MovingOptions = () => {
   return (
-    <div className="moving__container">
+    <div className="moving__container" id="local">
       <div className="moving__page__title">Take a look at our services</div>
       <div className="moving__box">
         <div className="moving__left">
@@ -35,7 +35,7 @@ const MovingOptions = () => {
         </div>
         <img src={localImg} alt="" className="moving__right adapt" />
       </div>
-      <div className="moving__box">
+      <div className="moving__box" id="long">
         <img src={longImg} alt="" className="moving__right" />
         <div className="moving__left adapt">
           <div className="moving__title">Long Distance Movers</div>
@@ -56,7 +56,7 @@ const MovingOptions = () => {
           </div>
         </div>
       </div>
-      <div className="moving__box">
+      <div className="moving__box" id="packing">
         <div className="moving__left">
           <div className="moving__title">Packing Services</div>
           <div className="moving__description wow fadeInLeft">
@@ -74,7 +74,7 @@ const MovingOptions = () => {
         </div>
         <img src={packingImg} alt="" className="moving__right adapt" />
       </div>
-      <div className="moving__box">
+      <div className="moving__box" id="storage">
         <img src={storageImg} alt="" className="moving__right" />
         <div className="moving__left adapt">
           <div className="moving__title">Short- and Long-Term Storage</div>
@@ -95,7 +95,7 @@ const MovingOptions = () => {
           </div>
         </div>
       </div>
-      <div className="moving__box">
+      <div className="moving__box" id="office">
         <div className="moving__left">
           <div className="moving__title">Office/Commercial Moving</div>
           <div className="moving__description wow fadeInLeft">
