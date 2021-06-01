@@ -162,7 +162,7 @@ const PricesTable = () => {
               <div className="mobile__left">Peak</div>
               <div className="mobile__right">$40/hr</div>
             </div>
-            <div className="mobile__box">
+            <div className="mobile__box" id="long-prices2">
               <div className="mobile__left">Hi-Peak</div>
               <div className="mobile__right">$40/hr</div>
             </div>
@@ -193,7 +193,7 @@ const PricesTable = () => {
         </div>
         <div className="long__mobile__box">
           <img src={chicagoImg} alt="chicago" />
-          <div className="long__mobile__text"><span>Chicago</span> - Starting at $3000</div>
+          <div className="long__mobile__text" id="storage-prices2"><span>Chicago</span> - Starting at $3000</div>
         </div>
       </div>
 

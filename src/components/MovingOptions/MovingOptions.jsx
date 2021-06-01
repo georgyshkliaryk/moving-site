@@ -51,7 +51,7 @@ const MovingOptions = () => {
             of any Interstate Move. <br />
             <br /> When you use our Long Distance Moving Service, you get a
             full, guaranteed, one-price transfer from Boston to a destination of
-            your choice for a flat rate. There will be no more adjusting
+            your choice for a flat rate. <span id="packing2"></span> There will be no more adjusting
             forecasts, headaches, or shifting surprises.
           </div>
         </div>
@@ -91,7 +91,7 @@ const MovingOptions = () => {
             <br /> When you need temporary storage, it's critical to find movers
             that are skilled enough to take proper care of your belongings and
             have an appropriate storage solution. <br /> <br />
-            <span>From $130 (per month)</span>
+            <span id="office2">From $130 (per month)</span>
           </div>
         </div>
       </div>

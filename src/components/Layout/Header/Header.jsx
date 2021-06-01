@@ -47,8 +47,12 @@ export default class Header extends React.Component {
                 Prices <i class="fas fa-angle-down"></i>
               </a>
               <div className="services__sub">
-                <a href="/prices/#local-prices">Local&nbsp;Moving&nbsp;Prices</a>
-                <a href="/prices/#long-prices">Long&nbsp;Distance&nbsp;Prices</a>
+                <a href="/prices/#local-prices">
+                  Local&nbsp;Moving&nbsp;Prices
+                </a>
+                <a href="/prices/#long-prices">
+                  Long&nbsp;Distance&nbsp;Prices
+                </a>
                 <a href="/prices/#storage-prices">Storage&nbsp;Prices</a>
               </div>
             </div>
@@ -87,10 +91,86 @@ export default class Header extends React.Component {
                 <a href="/">Home</a>
               </div>
               <div className="nav__link">
-                <a href="/services">Services</a>
+                <input type="checkbox" id="services__mobile" />
+                <label for="services__mobile">
+                  Services <i class="fas fa-angle-down"></i>
+                  <i class="fas fa-angle-up"></i>
+                </label>
+                <div className="services__nav__content">
+                  <a
+                    href="/services/#local"
+                    onClick={() => {
+                      this.setState({ show: "none", color: "#f44336" });
+                    }}
+                  >
+                    Local Moving
+                  </a>
+                  <a
+                    href="/services/#long"
+                    onClick={() => {
+                      this.setState({ show: "none", color: "#f44336" });
+                    }}
+                  >
+                    Long Distance
+                  </a>
+                  <a
+                    href="/services/#packing2"
+                    onClick={() => {
+                      this.setState({ show: "none", color: "#f44336" });
+                    }}
+                  >
+                    Packing Services
+                  </a>
+                  <a
+                    href="/services/#storage"
+                    onClick={() => {
+                      this.setState({ show: "none", color: "#f44336" });
+                    }}
+                  >
+                    Storage
+                  </a>
+                  <a
+                    href="/services/#office2"
+                    onClick={() => {
+                      this.setState({ show: "none", color: "#f44336" });
+                    }}
+                  >
+                    Office/Commercial
+                  </a>
+                </div>
               </div>
               <div className="nav__link">
-                <a href="/prices">Prices</a>
+                <input type="checkbox" id="prices__mobile" />
+                <label for="prices__mobile">
+                  Prices <i class="fas fa-angle-down"></i>
+                  <i class="fas fa-angle-up"></i>
+                </label>
+                <div className="prices__nav__content">
+                  <a
+                    href="/prices/#local-prices"
+                    onClick={() => {
+                      this.setState({ show: "none", color: "#f44336" });
+                    }}
+                  >
+                    Local&nbsp;Moving&nbsp;Prices
+                  </a>
+                  <a
+                    href="/prices/#long-prices2"
+                    onClick={() => {
+                      this.setState({ show: "none", color: "#f44336" });
+                    }}
+                  >
+                    Long&nbsp;Distance&nbsp;Prices
+                  </a>
+                  <a
+                    href="/prices/#storage-prices2"
+                    onClick={() => {
+                      this.setState({ show: "none", color: "#f44336" });
+                    }}
+                  >
+                    Storage&nbsp;Prices
+                  </a>
+                </div>
               </div>
               <div className="nav__link">
                 <a href="/faq">FAQ</a>
@@ -99,7 +179,14 @@ export default class Header extends React.Component {
                 <a href="/about">About us</a>
               </div>
               <div className="nav__link">
-                <a href="/#contacts">Contact us</a>
+                <a
+                  href="/#contacts"
+                  onClick={() => {
+                    this.setState({ show: "none", color: "#f44336" });
+                  }}
+                >
+                  Contact us
+                </a>
               </div>
               <div className="nav__link">
                 <a

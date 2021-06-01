@@ -63,7 +63,7 @@ const Quote = () => {
             <div className="input__container">
               <div className="input__flex">
                 <span>
-                  <i class="fas fa-map-marker-alt"></i>
+                <i class="fas fa-map-marked-alt"></i>
                 </span>
                 <input
                   type="text"
