@@ -124,17 +124,17 @@
   }
 }
 .long__mobile__box {
-    margin-bottom: 2rem;
-    img {
-        width: 95%;
-    }
-    span {
-        color: #f44336;
-        font-weight: bold;
-    }
+  margin-bottom: 2rem;
+  img {
+    width: 95%;
+  }
+  span {
+    color: #f44336;
+    font-weight: bold;
+  }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   .table__container {
     display: none;
   }
@@ -164,12 +164,12 @@
     margin-bottom: 1rem;
   }
   .storage__prices__box {
-      width: 95%;
+    width: 95%;
   }
   .storage__prices__container {
     margin: 0;
   }
   .table__subtitle.last {
-      margin-top: 5rem;
+    margin-top: 5rem;
   }
 }
