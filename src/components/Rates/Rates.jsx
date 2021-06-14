@@ -27,10 +27,6 @@ const Rates = () => {
             quote. Allston, Brookline, Cambridge, Framingham, Lexington,
             Needham, Wellesley, Weston, and all of New England are among the
             cities we serve in Boston and the Greater Boston area. <br /> <br />{" "}
-            We offer same-day delivery moving from Boston to New York starting
-            at $950, moving from Boston to Florida starting at $3500, and
-            cross-country transfers from Boston to Chicago starting at $3000.
-            Our hourly moving rates in Boston begin at just $115 per hour.
           </div>
         </div>
         <div className="rates__right">

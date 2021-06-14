@@ -73,16 +73,7 @@ const Movers = () => {
         </div>
       </div>
       <div className="prices__text">
-        <span>Our Rates</span> are hourly based with <span>15 min</span>. The
-        policy of increment charges varies depending on the crew size you need
-        for your shift. There are no hidden costs in the hourly rate since it
-        covers movers, a fully fitted truck, petrol, tolls, mileage, and basic
-        insurance. <br /> Minimum <span>1/2hr</span> additional travel time is
-        applied to all jobs in Greater Boston area. (Our movers will take 15
-        minutes to get to your address from our office, plus 15 minutes to
-        return when the transfer is completed.) <br /> We have a{" "}
-        <span>3 hour minimum charge</span> policy in case your move takes less
-        then three hours of the Total time (including traveling time).
+        We charge hourly rates, based on <span>15 minutes</span> increments. We have a <span>3 hour minimum</span> charge policy.
       </div>
     </div>
   );

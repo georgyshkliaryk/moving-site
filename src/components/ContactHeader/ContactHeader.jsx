@@ -11,7 +11,6 @@ const ContactHeader = () => {
       </div>
       <div className="socials">
         <a href="https://www.instagram.com/vipmoversboston/" target="_blank" title="instagram.com"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.facebook.com" target="_blank" title="facebook.com"><i class="fab fa-facebook"></i></a>
         <a href="https://www.whatsapp.com" target="_blank" title="whatsapp.com"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
