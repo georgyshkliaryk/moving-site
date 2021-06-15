@@ -27,16 +27,12 @@ const Footer = () => {
         <div className="footer__logo">
           <img src={logo3} alt="footer-logo" />
           <div className="logo__description">
-            <b>VIP Movers Company.</b> <br /> Picked by you, packed by us.
+            <b>VIP Movers.</b> <br /> Picked by you, packed by us.
           </div>
         </div>
         <div className="footer__about">
-          Every Boston neighborhood is familiar to our team of committed
-          professionals, and we fulfill all building specifications. Fully
-          Insured and Licensed You don't have to be concerned about anything
-          because everything is in our possession. Every member of the crew is
-          part of a well-trained team. To complete a job quickly and
-          efficiently, we employ specialized equipment.
+          vipmoversboston@gmail.com<br/><br/>
+          (413)841-6497
         </div>
       </div>
       <div className="footer__info">

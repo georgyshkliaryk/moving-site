@@ -38,16 +38,14 @@ const FAQ = () => {
               <br /> Before the work finishes on the day of the transfer, you
               must pay in full. Cash or credit/debit cards (VISA, MC, Discover,
               Amex) are accepted. Both credit/debit card purchases are subject
-              to a 3% convenience charge. Please keep in mind that we do not
-              allow checks. Since we need a signature on credit/debit card
+              to a 3% convenience charge. Since we need a signature on credit/debit card
               payments, the name on the credit card must match the name on the
               signature. <br />
               <br /> For Interstate Moves: <br />
               <br /> Payment must be made by the end of the delivery day. We
               accept cash, as well as credit and debit cards (VISA, MC,
               Discover, Amex). Both credit/debit card purchases are subject to a
-              3% convenience charge. Please keep in mind that we do not allow
-              checks. You will save time and money if you have your payment
+              3% convenience charge. You will save time and money if you have your payment
               ready ahead of time. Since we need a signature on credit/debit
               card purchases, the name on the credit card must match the name on
               the signature.
@@ -58,7 +56,7 @@ const FAQ = () => {
               Do I need to get moving or parking permits?
             </div>
             <div className="faq__card__text">
-              Yes, indeed. You, as the consumer, are responsible for obtaining
+              Yes. You, as the consumer, are responsible for obtaining
               the required moving permits. Permits are recommended for all
               transfers so they ensure that the moving truck can be parked as
               near to your doorway as possible. Since you are familiar with the
