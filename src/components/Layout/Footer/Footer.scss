@@ -35,6 +35,10 @@
 .footer__about {
     max-width: 40%;
     text-align: right;
+    a {
+        text-align: right;
+        margin: 0;
+    }
 }
 .footer__info {
     font-size: 15px;

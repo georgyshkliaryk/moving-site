@@ -31,8 +31,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__about">
-          vipmoversboston@gmail.com<br/><br/>
-          (413)841-6497
+          vipmoversboston@gmail.com <i class="fas fa-envelope"></i> <br/>
+          (413)841-6497 <i class="fas fa-phone-square"></i> <br/><br/>
+          <a href="https://instagram.com/vipmoversboston" target="_blank">instagram <i class="fab fa-instagram"></i></a> <br/>
+          <a href="https://www.yelp.com/biz/vip-movers-boston-boston" target="_blank">yelp <i class="fab fa-yelp"></i></a>
         </div>
       </div>
       <div className="footer__info">

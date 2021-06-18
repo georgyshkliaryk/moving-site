@@ -11,7 +11,7 @@ const ContactHeader = () => {
       </div>
       <div className="socials">
         <a href="https://www.instagram.com/vipmoversboston/" target="_blank" title="instagram.com"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.whatsapp.com" target="_blank" title="whatsapp.com"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.yelp.com/biz/vip-movers-boston-boston" target="_blank" title="yelp.com"><i class="fab fa-yelp"></i></a>
       </div>
     </div>
   );
