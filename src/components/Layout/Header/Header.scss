@@ -3,6 +3,7 @@
   align-items: center;
   flex-wrap: wrap;
   background-color: #fdf3d9;
+  opacity: 0.9;
   font-weight: bold;
   color: #f44336;
   padding: 0.5rem 0;
@@ -13,7 +14,11 @@
   width: 100%;
 }
 .header__covid {
-  background-color: #f44336;
+  //background-color: #f44336;
+  
+  background: rgb(253,243,217);
+  background: linear-gradient(90deg, rgba(253,243,217,1) 8%, rgba(222,23,23,1) 50%, rgba(253,243,217,1) 92%);
+
   color: white;
   position: fixed;
   z-index: 6;
@@ -176,6 +181,7 @@
   }
   .header__covid {
     font-size: 16px;
+    background-color: #f44336;
   }
   .nav__container {
     top: 1.5rem;

@@ -1,11 +1,11 @@
 .carousel__container {
-    width: 80rem;
-    text-align: center;
-    margin: 0 auto;
+  width: 40rem;
+  text-align: center;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 680px) {
-    .carousel__container {
-        display: none;
-    }
+  .carousel__container {
+    display: none;
+  }
 }

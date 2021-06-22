@@ -17,11 +17,13 @@ const Privacy = () => {
           <div className="about__content">
             <div className="about__title">Privacy Policy</div>
             <div className="about__description">
-              At MassMoving, accessible from{" "}
-              <a href="https://www.vipmoversboston.com">https://www.vipmoversboston.com</a>, one of our main
-              priorities is the privacy of our visitors. This Privacy Policy
-              document contains types of information that is collected and
-              recorded by VIP Movers and how we use it. <br />
+              At VIP Boston Moving, accessible from{" "}
+              <a href="https://www.vipmoversboston.com">
+                https://www.vipmoversboston.com
+              </a>
+              , one of our main priorities is the privacy of our visitors. This
+              Privacy Policy document contains types of information that is
+              collected and recorded by VIP Movers and how we use it. <br />
               <br /> If you have additional questions or require more
               information about our Privacy Policy, feel free to contact us
               through email at&nbsp;
@@ -34,16 +36,16 @@ const Privacy = () => {
         <div className="privacy__box">
           <div className="privacy__box__title">Log Files</div>
           <div className="privacy__box__description">
-            <span>VIP Movers Company</span> follows a standard procedure of using log
-            files. These files log visitors when they visit websites. All
-            hosting companies do this and a part of hosting services’ analytics.
-            The information collected by log files include internet protocol
-            (IP) addresses, browser type, Internet Service Provider (ISP), date
-            and time stamp, referring/exit pages, and possibly the number of
-            clicks. These are not linked to any information that is personally
-            identifiable. The purpose of the information is for analyzing
-            trends, administering the site, tracking users’ movement on the
-            website, and gathering demographic information.
+            <span>VIP Movers Company</span> follows a standard procedure of
+            using log files. These files log visitors when they visit websites.
+            All hosting companies do this and a part of hosting services’
+            analytics. The information collected by log files include internet
+            protocol (IP) addresses, browser type, Internet Service Provider
+            (ISP), date and time stamp, referring/exit pages, and possibly the
+            number of clicks. These are not linked to any information that is
+            personally identifiable. The purpose of the information is for
+            analyzing trends, administering the site, tracking users’ movement
+            on the website, and gathering demographic information.
           </div>
         </div>
         <div className="privacy__box">
@@ -53,12 +55,12 @@ const Privacy = () => {
             advertising partners of VIP Movers. <br />
             <br /> Third-party ad servers or ad networks uses technologies like
             cookies, JavaScript, or Web Beacons that are used in their
-            respective advertisements and links that appear on VIP Moving,
-            which are sent directly to users’ browser. They automatically
-            receive your IP address when this occurs. These technologies are
-            used to measure the effectiveness of their advertising campaigns
-            and/or to personalize the advertising content that you see on
-            websites that you visit. <br />
+            respective advertisements and links that appear on VIP Moving, which
+            are sent directly to users’ browser. They automatically receive your
+            IP address when this occurs. These technologies are used to measure
+            the effectiveness of their advertising campaigns and/or to
+            personalize the advertising content that you see on websites that
+            you visit. <br />
             <br /> Note that <span>VIP Moving</span> has no access to or control
             over these cookies that are used by third-party advertisers.
           </div>

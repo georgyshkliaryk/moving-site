@@ -2,19 +2,58 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "./Carousel.scss";
 
+import about1 from "../../assets/images/about1.jpeg";
+import about2 from "../../assets/images/about2.jpeg";
+import about3 from "../../assets/images/about3.jpeg";
+import about4 from "../../assets/images/about4.jpeg";
+import about5 from "../../assets/images/about5.jpeg";
+import about6 from "../../assets/images/about6.jpeg";
+import about7 from "../../assets/images/about7.jpeg";
+import about8 from "../../assets/images/about8.jpeg";
+
 export default () => (
   <Carousel autoPlay emulateTouch className="carousel__container">
+  
     <div>
       <img
-        alt=""
-        src="https://i.pinimg.com/originals/0b/de/fd/0bdefd1aabb4cf0fa5ea2f274a5d365f.jpg"
+        alt="about1_img"
+        src={about1}
       />
     </div>
     <div>
-      <img
-        alt=""
-        src="https://ded7t1cra1lh5.cloudfront.net/media/626619/ca44f50475756471646f187612b96011911a4971/original/moving-company-hero.jpg?1614065562"
-      />
+      <img src={about2} 
+      alt="about2_img" 
+    />
     </div>
-  </Carousel>
+    <div>
+      <img src={about3} 
+      alt="about3_img" 
+    />
+    </div>
+    <div>
+      <img src={about4} 
+      alt="about4_img" 
+    />
+    </div>
+    <div>
+      <img src={about5} 
+      alt="about5_img" 
+    />
+    </div>
+    <div>
+      <img src={about6} 
+      alt="about6_img" 
+    />
+    </div>
+    <div>
+      <img src={about7} 
+      alt="about7_img" 
+    />
+    </div>
+    <div>
+      <img src={about8} 
+      alt="about8_img" 
+    />
+    </div>
+  </Carousel> 
 );
