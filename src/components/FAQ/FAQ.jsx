@@ -53,28 +53,6 @@ const FAQ = () => {
           </div>
           <div className="faq__card">
             <div className="faq__card__title">
-              Do I need to get moving or parking permits?
-            </div>
-            <div className="faq__card__text">
-              Yes. You, as the consumer, are responsible for obtaining
-              the required moving permits. Permits are recommended for all
-              transfers so they ensure that the moving truck can be parked as
-              near to your doorway as possible. Since you are familiar with the
-              parking situation on your route, it is up to you to decide if you
-              can park without a permit. To park the truck in most cases, you'll
-              need 35 to 40 feet. Permits are highly recommended in the North
-              End and Beacon Hills areas. <br />
-              <br /> If there is no parking available when the movers arrive,
-              the crew will start your moving clock as they look for a spot. Our
-              drivers reserve the right to park wherever they see fit in order
-              to provide better service, even if it is illegal or requires the
-              driver to double park. Any parking fees or tickets charged to the
-              carrier for any vehicle under hire by the customer at the time of
-              the payment will be paid by the customer.
-            </div>
-          </div>
-          <div className="faq__card">
-            <div className="faq__card__title">
               Do you provide loading/unloading services alone?
             </div>
             <div className="faq__card__text">

@@ -18,7 +18,7 @@ const MovingOptions = () => {
             than hiring licensed local movers, there are a few items to think
             about before making your final decision. VIP Movers are familiar
             with the specific street locations and neighborhood stumbling
-            blocks, such as truck limits, parking permits, traffic appearances,
+            blocks, such as truck limits, traffic appearances,
             and workarounds. <br />
             <br /> <span>VIP Movers</span> will send a representative for a
             visual estimate prior to the moving date, ensuring that the quote
