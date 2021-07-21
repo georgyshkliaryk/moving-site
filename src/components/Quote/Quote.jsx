@@ -1,9 +1,36 @@
 import React from "react";
+import emailjs from "emailjs-com";
+
 import "./Quote.scss";
 import contacts from "../../assets/images/contacts.svg";
 import contacts2 from "../../assets/images/contacts2.svg";
 
 const Quote = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "gmail",
+        "template_iccmvgc",
+        e.target,
+        "user_6EwKIk0rCp4wKaNhjX1Zb"
+      )
+      .then(
+        (result) => {
+          alert(
+            "Thanks for the request! Our team will contact you as soon as possible!"
+          );
+        },
+        (error) => {
+          alert(
+            "There was an error sending the request. Please try again later."
+          );
+        }
+      );
+    e.target.reset();
+  }
+
   return (
     <div>
       <div className="why__quote__title" id="contacts">
@@ -18,7 +45,7 @@ const Quote = () => {
               with anyone.
             </div>
           </div>
-          <form action="" className="quote__form">
+          <form className="quote__form" onSubmit={sendEmail}>
             <div className="input__container">
               <div className="input__flex">
                 <span>
@@ -27,8 +54,9 @@ const Quote = () => {
                 <input
                   type="text"
                   name="first-name"
-                  placeholder="First Name"
+                  placeholder="First Name*"
                   id="first-name"
+                  required
                 />
                 <input type="text" name="last-name" placeholder="Last Name" />
               </div>
@@ -37,41 +65,39 @@ const Quote = () => {
               <span>
                 <i class="fas fa-envelope"></i>
               </span>
-              <input type="email" name="email" placeholder="Email" />
+              <input type="email" name="email" placeholder="Email*" required />
             </div>
-            <div className="input__container">
+            <div className="input__container phone">
               <span>
                 <i class="fas fa-phone-alt"></i>
               </span>
-              <input type="phone" name="phone" placeholder="Phone" />
+              <input type="phone" name="phone" placeholder="Phone*" required />
             </div>
-            <div className="input__container">
+            <span className="date__text">Desired moving date*</span>
+            <div className="input__container date">
               <span>
                 <i class="far fa-calendar-alt"></i>
               </span>
-              <input
-                type="text"
-                name="date"
-                placeholder="Move date"
-                onFocus={(e) => (e.currentTarget.type = "date")}
-                onBlur={(e) => {
-                  e.currentTarget.type = "text";
-                  e.currentTarget.placeholder = "Move date";
-                }}
-              />
+              <input type="date" name="date" required />
             </div>
             <div className="input__container">
               <div className="input__flex">
                 <span>
-                <i class="fas fa-map-marked-alt"></i>
+                  <i class="fas fa-map-marked-alt"></i>
                 </span>
                 <input
                   type="text"
                   name="move-from"
-                  placeholder="Move From"
+                  placeholder="Move From*"
                   id="move-from"
+                  required
                 />
-                <input type="text" name="move-to" placeholder="Move To" />
+                <input
+                  type="text"
+                  name="move-to"
+                  placeholder="Move To*"
+                  required
+                />
               </div>
             </div>
             <div className="input__container">
@@ -79,25 +105,28 @@ const Quote = () => {
                 <i class="fas fa-box-open"></i>
               </span>
               <select name="service" id="">
-                <option value="local">Local moving</option>
-                <option value="long">Long distace moving</option>
-                <option value="office">Office/Commercial</option>
-                <option value="storage">Storage</option>
+                <option value="Local moving">Local moving</option>
+                <option value="Long distace moving">Long distace moving</option>
+                <option value="Office/Commercial">Office/Commercial</option>
+                <option value="Storage">Storage</option>
               </select>
             </div>
             <div className="input__container">
               <span>
                 <i class="fas fa-home"></i>
               </span>
-              <select name="service" id="">
-                <option value="local">Room or less apartment</option>
-                <option value="long">Studio</option>
-                <option value="office">1 bedroom apartment</option>
-                <option value="storage">2 bedroom apartment</option>
-                <option value="long">3 bedroom apartment</option>
-                <option value="office">1 bedroom house</option>
-                <option value="storage">2 bedroom house</option>
-                <option value="storage">3 bedroom house</option>
+              <select name="size" id="">
+                <option value="Room or less apartment">
+                  Room or less apartment
+                </option>
+                <option value="Studio">Studio</option>
+                <option value="1 bedroom apartment">1 bedroom apartment</option>
+                <option value="2 bedroom apartment">2 bedroom apartment</option>
+                <option value="3 bedroom apartment">3 bedroom apartment</option>
+                <option value="1 bedroom house">1 bedroom house</option>
+                <option value="2 bedroom house">2 bedroom house</option>
+                <option value="3 bedroom house">3 bedroom house</option>
+                <option value="Other">Other</option>
               </select>
             </div>
             <button type="submit">Request a quote</button>
@@ -105,7 +134,7 @@ const Quote = () => {
           <div className="quote__warning">
             By clicking on “Request a Quote”, I agree to being contacted by
             text, SMS, email, or phone in connection with my upcoming move from
-            or on behalf of MassMoving Company.
+            or on behalf of VIP Movers Company.
           </div>
         </div>
         <div className="contacts">
