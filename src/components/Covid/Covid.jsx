@@ -89,7 +89,7 @@ const Covid = () => {
       <div className="covid__contact">
         <b>If you would like additional information, please contact us:</b>{" "}
         <br />
-        <br /> Phone: <span>(413) 841-6497</span> <br />
+        <br /> Phone: <span>617-764-6461</span> <br />
         <br /> E-mail: <span>vipmoversboston@gmail.com</span> <br />
         <br />
         <br />

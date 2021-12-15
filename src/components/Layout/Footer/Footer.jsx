@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.scss";
-import logo from "../../../assets/images/logo_v4.svg";
 import logo3 from "../../../assets/images/main-logo2.png";
 
 const Footer = () => {
@@ -31,10 +30,24 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__about">
-          vipmoversboston@gmail.com <i class="fas fa-envelope"></i> <br/>
-          (413)841-6497 <i class="fas fa-phone-square"></i> <br/><br/>
-          <a href="https://instagram.com/vipmoversboston" target="_blank">instagram <i class="fab fa-instagram"></i></a> <br/>
-          <a href="https://www.yelp.com/biz/vip-movers-boston-boston" target="_blank">yelp <i class="fab fa-yelp"></i></a>
+          vipmoversboston@gmail.com <i class="fas fa-envelope"></i> <br />
+          617-764-6461 <i class="fas fa-phone-square"></i> <br />
+          <br />
+          <a
+            href="https://instagram.com/vipmoversboston"
+            target="_blank"
+            rel="noreferrer"
+          >
+            instagram <i class="fab fa-instagram"></i>
+          </a>{" "}
+          <br />
+          <a
+            href="https://www.yelp.com/biz/vip-movers-boston-boston"
+            target="_blank"
+            rel="noreferrer"
+          >
+            yelp <i class="fab fa-yelp"></i>
+          </a>
         </div>
       </div>
       <div className="footer__info">

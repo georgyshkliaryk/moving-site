@@ -2,7 +2,6 @@ import React from "react";
 import emailjs from "emailjs-com";
 
 import "./Quote.scss";
-import contacts from "../../assets/images/contacts.svg";
 import contacts2 from "../../assets/images/contacts2.svg";
 
 const Quote = () => {
@@ -147,7 +146,7 @@ const Quote = () => {
           <div className="contacts__content">
             <div className="contacts__links">
               <div>
-                <i class="fas fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;(413) 841-6497
+                <i class="fas fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;617-764-6461
               </div>
               <div>
                 <i class="fas fa-envelope"></i>
@@ -166,6 +165,7 @@ const Quote = () => {
                 href="https://www.instagram.com/vipmoversboston/"
                 target="_blank"
                 title="instagram.com"
+                rel="noreferrer"
               >
                 <i class="fab fa-instagram"></i>
               </a>
@@ -173,6 +173,7 @@ const Quote = () => {
                 href="https://www.yelp.com/biz/vip-movers-boston-boston"
                 target="_blank"
                 title="yelp.com"
+                rel="noreferrer"
               >
                 <i class="fab fa-yelp"></i>
               </a>
@@ -184,6 +185,7 @@ const Quote = () => {
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.226900023373!2d-71.11670508430635!3d42.40161314046856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e376d8cfb914c3%3A0x9681ce0b21c872d0!2zMzEgUGVhcnNvbiBSZCwgU29tZXJ2aWxsZSwgTUEgMDIxNDQsINCh0KjQkA!5e0!3m2!1sru!2sby!4v1620771053814!5m2!1sru!2sby"
         allowfullscreen=""
         loading="lazy"
+        title="map"
       ></iframe>
     </div>
   );

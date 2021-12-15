@@ -22,8 +22,8 @@ const Rates = () => {
             relocation. We are a full-service Boston moving company that offers
             packing, moving, and storage for both local and long-distance
             transfers. <br /> <br /> We provide competitive Boston moving rates
-            in order to provide you with the best quality and value. Call (413)
-            841-6497 right now for a no-obligation, no-hassle Boston moving
+            in order to provide you with the best quality and value. Call
+            617-764-6461 right now for a no-obligation, no-hassle Boston moving
             quote. Allston, Brookline, Cambridge, Framingham, Lexington,
             Needham, Wellesley, Weston, and all of New England are among the
             cities we serve in Boston and the Greater Boston area. <br /> <br />{" "}
