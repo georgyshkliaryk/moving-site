@@ -17,7 +17,7 @@ const PricesImage = () => {
         <ContactHeader />
         <div className="prices__content">
           <div className="prices__title">
-            Our moving privces have no hidden fees or additional costs.
+            Our moving prices have no hidden fees or additional costs.
           </div>
           <div className="prices__description">
             VIP Movers Boston provides fair prices for all types of moves. Whether it
