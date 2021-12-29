@@ -16,10 +16,10 @@ const PricesTable = () => {
         See the table below for fixed hourly rates on moving home.
       </div>
       <div className="table__container">
-        <div className="table__subtitle">Local Moving / Office Moving</div>
+        {/* <div className="table__subtitle">Local Moving / Office Moving</div>
         <div className="table__box fake">
           <div className="table__box__title fake"></div>
-          <div className="table__price">Regular</div>
+          <div className="table__price">Starting grocery</div>
           <div className="table__price">Peak</div>
           <div className="table__price">Hi-Peak</div>
         </div>
@@ -56,7 +56,7 @@ const PricesTable = () => {
           <div className="table__price">$40/hr</div>
           <div className="table__price">$40/hr</div>
           <div className="table__price">$40/hr</div>
-        </div>
+        </div> */}
         <div className="table__subtitle">Long distance moving</div>
         <div className="long__prices__container">
           <div className="long__prices__box">
@@ -98,7 +98,7 @@ const PricesTable = () => {
         </div>
       </div>
       <div className="table__container__mobile">
-        <div className="table__subtitle">Local/Office Moving</div>
+        {/* <div className="table__subtitle">Local/Office Moving</div>
         <div className="table__box__mobile">
           <div className="table__box__mobile__title">2 Movers & Truck</div>
           <div className="table__price__mobile">
@@ -183,7 +183,7 @@ const PricesTable = () => {
               <div className="mobile__right">$40/hr</div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="table__subtitle">Long distance moving</div>
         <div className="long__mobile__box">

@@ -71,9 +71,34 @@ const Movers = () => {
             <i class="fas fa-check-circle"></i>
           </div>
         </div>
+        <div className="movers__card wow fadeInUp" data-wow-delay="0.6s">
+          <div className="card__title">Additional Movers/hr</div>
+          <div className="card__starting">Starting from</div>
+          <div className="card__price">$30/hr</div>
+          <div className="card__included">INCLUDED</div>
+          <div className="option2__box">
+            <div className="option2__title">Free wrapping materials</div>
+            <i class="fas fa-check-circle"></i>
+          </div>
+        </div>
+        <div className="movers__card wow fadeInUp" data-wow-delay="0.8s">
+          <div className="card__title">Additional Truck/hr</div>
+          <div className="card__starting">Starting from</div>
+          <div className="card__price">$40/hr</div>
+          <div className="card__included">INCLUDED</div>
+          <div className="option2__box">
+            <div className="option2__title">Clean Box Truck</div>
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <div className="option2__box">
+            <div className="option2__title">Free wrapping materials</div>
+            <i class="fas fa-check-circle"></i>
+          </div>
+        </div>
       </div>
       <div className="prices__text">
-        We charge hourly rates, based on <span>15 minutes</span> increments. We have a <span>3 hour minimum</span> charge policy.
+        We charge hourly rates, based on <span>15 minutes</span> increments. We
+        have a <span>3 hour minimum</span> charge policy.
       </div>
     </div>
   );
