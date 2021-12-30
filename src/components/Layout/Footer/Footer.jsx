@@ -30,15 +30,15 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__about">
-          vipmoversboston@gmail.com <i class="fas fa-envelope"></i> <br />
-          617-764-6461 <i class="fas fa-phone-square"></i> <br />
+          vipmoversboston@gmail.com <i className="fas fa-envelope"></i> <br />
+          617-764-6461 <i className="fas fa-phone-square"></i> <br />
           <br />
           <a
             href="https://instagram.com/vipmoversboston"
             target="_blank"
             rel="noreferrer"
           >
-            instagram <i class="fab fa-instagram"></i>
+            instagram <i className="fab fa-instagram"></i>
           </a>{" "}
           <br />
           <a
@@ -46,7 +46,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            yelp <i class="fab fa-yelp"></i>
+            yelp <i className="fab fa-yelp"></i>
           </a>
         </div>
       </div>

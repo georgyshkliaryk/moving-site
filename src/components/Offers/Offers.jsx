@@ -27,7 +27,7 @@ const Offers = () => {
             the city a breeze.
           </div>
           <a href="/services">
-            Read more &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+            Read more &nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
           </a>
         </div>
         <div className="offers__option">
@@ -40,7 +40,7 @@ const Offers = () => {
             headaches, or shifting surprises.
           </div>
           <a href="/services">
-            Read more &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+            Read more &nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
           </a>
         </div>
         <div className="offers__option">
@@ -52,7 +52,7 @@ const Offers = () => {
             care.
           </div>
           <a href="/services">
-            Read more &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+            Read more &nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
           </a>
         </div>
         <div className="offers__option" id="opt4">
@@ -64,11 +64,11 @@ const Offers = () => {
             or night.
           </div>
           <a href="/services">
-            Read more &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+            Read more &nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
           </a>
         </div>
         <div className="offers__option" id="opt4">
-          <img src={storageImg} alt="office"/>
+          <img src={storageImg} alt="office" />
           <div className="option__title">Storage</div>
           <div className="option__description">
             For years, we have provided safe and secure flexible storage options
@@ -76,7 +76,7 @@ const Offers = () => {
             secure storage needs.
           </div>
           <a href="/services">
-            Read more &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+            Read more &nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
           </a>
         </div>
       </div>

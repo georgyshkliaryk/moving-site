@@ -34,8 +34,8 @@ const Covid = () => {
       </div>
       <div className="covid__text">
         <div className="covid__title">
-          <i class="fas fa-thermometer-half"></i> Pre-move team member Wellnes
-          check:
+          <i className="fas fa-thermometer-half"></i> Pre-move team member
+          Wellnes check:
         </div>
         <div className="covid__content">
           To help educate and raise awareness among our team members, we have
@@ -48,7 +48,7 @@ const Covid = () => {
       </div>
       <div className="covid__text">
         <div className="covid__title">
-          <i class="fas fa-head-side-mask"></i>
+          <i className="fas fa-head-side-mask"></i>
           Examination gloves and masks are worn:
         </div>
         <div className="covid__content">
@@ -59,7 +59,7 @@ const Covid = () => {
       </div>
       <div className="covid__text">
         <div className="covid__title">
-          <i class="fas fa-hands-wash"></i>Truck & equipment cleaning:
+          <i className="fas fa-hands-wash"></i>Truck & equipment cleaning:
         </div>
         <div className="covid__content">
           After each step, all high-touch surfaces, such as door handles and
@@ -68,7 +68,7 @@ const Covid = () => {
       </div>
       <div className="covid__text">
         <div className="covid__title">
-          <i class="fas fa-people-arrows"></i>Social distancing:
+          <i className="fas fa-people-arrows"></i>Social distancing:
         </div>
         <div className="covid__content">
           Team members will practice the 6' social distancing between team
@@ -78,7 +78,7 @@ const Covid = () => {
       </div>
       <div className="covid__text">
         <div className="covid__title">
-          <i class="fas fa-door-open"></i>
+          <i className="fas fa-door-open"></i>
           Open doorways and windows when available:
         </div>
         <div className="covid__content">

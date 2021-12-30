@@ -17,13 +17,13 @@ const HomeImage = () => {
         </div>
         <div className="image__buttons">
           <a href="/about" className="image__button wow fadeIn">
-            More about us &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+            More about us &nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
           </a>
           <a href="/services" className="image__button wow fadeIn">
-            What we offer &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+            What we offer &nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
           </a>
           <a href="/prices" className="image__button wow fadeIn">
-            Pricing &nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+            Pricing &nbsp;&nbsp;<i className="fas fa-arrow-right"></i>
           </a>
         </div>
       </Parallax>

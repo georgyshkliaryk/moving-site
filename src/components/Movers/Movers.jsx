@@ -11,20 +11,22 @@ const Movers = () => {
           <div className="card__price">$125/hr</div>
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
-            <div className="option2__title">Studio/1 bedroom apartment</div>
-            <i class="fas fa-check-circle"></i>
+            <div className="option2__title">
+              Studio/1&nbsp;bedroom&nbsp;apartment
+            </div>
+            <i className="fas fa-check-circle"></i>
           </div>
           <div className="option2__box">
             <div className="option2__title">2 professional movers</div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </div>
           <div className="option2__box">
             <div className="option2__title">Clean Box Truck</div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </div>
           <div className="option2__box">
             <div className="option2__title">Free wrapping materials</div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </div>
         </div>
         <div className="movers__card wow fadeInUp" data-wow-delay="0.2s">
@@ -33,20 +35,22 @@ const Movers = () => {
           <div className="card__price">$160/hr</div>
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
-            <div className="option2__title">Studio/1 bedroom apartment</div>
-            <i class="fas fa-check-circle"></i>
+            <div className="option2__title">
+              Studio/1&nbsp;bedroom&nbsp;apartment
+            </div>
+            <i className="fas fa-check-circle"></i>
           </div>
           <div className="option2__box">
             <div className="option2__title">3 professional movers</div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </div>
           <div className="option2__box">
             <div className="option2__title">Clean Box Truck</div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </div>
           <div className="option2__box">
             <div className="option2__title">Free wrapping materials</div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </div>
         </div>
         <div className="movers__card wow fadeInUp" data-wow-delay="0.4s">
@@ -55,20 +59,22 @@ const Movers = () => {
           <div className="card__price">$199/hr</div>
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
-            <div className="option2__title">Studio/1 bedroom apartment</div>
-            <i class="fas fa-check-circle"></i>
+            <div className="option2__title">
+              Studio/1&nbsp;bedroom&nbsp;apartment
+            </div>
+            <i className="fas fa-check-circle"></i>
           </div>
           <div className="option2__box">
             <div className="option2__title">4 professional movers</div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </div>
           <div className="option2__box">
             <div className="option2__title">Clean Box Truck</div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </div>
           <div className="option2__box">
             <div className="option2__title">Free wrapping materials</div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </div>
         </div>
         <div className="movers__card wow fadeInUp" data-wow-delay="0.6s">
@@ -78,7 +84,7 @@ const Movers = () => {
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
             <div className="option2__title">Free wrapping materials</div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </div>
         </div>
         <div className="movers__card wow fadeInUp" data-wow-delay="0.8s">
@@ -88,11 +94,11 @@ const Movers = () => {
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
             <div className="option2__title">Clean Box Truck</div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </div>
           <div className="option2__box">
             <div className="option2__title">Free wrapping materials</div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
           </div>
         </div>
       </div>

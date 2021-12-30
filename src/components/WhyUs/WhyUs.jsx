@@ -7,7 +7,7 @@ const WhyUs = () => {
       <div className="why__title">Why people choose VIP Movers?</div>
       <div className="why__options">
         <div className="why__option">
-          <i class="fas fa-users"></i>
+          <i className="fas fa-users"></i>
           <div className="why__option__title">Professional Young Team</div>
           <div className="why__option__description">
             VIP Movers are young professionals with 2+ years of experience in
@@ -16,7 +16,7 @@ const WhyUs = () => {
           </div>
         </div>
         <div className="why__option">
-          <i class="fas fa-umbrella"></i>
+          <i className="fas fa-umbrella"></i>
           <div className="why__option__title">
             We're concerned about your stuff.
           </div>
@@ -27,7 +27,7 @@ const WhyUs = () => {
           </div>
         </div>
         <div className="why__option">
-          <i class="fas fa-id-badge"></i>
+          <i className="fas fa-id-badge"></i>
           <div className="why__option__title">Fully Insured and Licensed</div>
           <div className="why__option__description">
             You don't have to be concerned about anything, everything is in our
@@ -35,7 +35,7 @@ const WhyUs = () => {
           </div>
         </div>
         <div className="why__option">
-          <i class="fas fa-tools"></i>
+          <i className="fas fa-tools"></i>
           <div className="why__option__title">
             Assembling/Reassembling Furniture
           </div>
@@ -45,7 +45,7 @@ const WhyUs = () => {
           </div>
         </div>
         <div className="why__option">
-          <i class="fas fa-stopwatch"></i>
+          <i className="fas fa-stopwatch"></i>
           <div className="why__option__title">
             30 minutes or less Rate of response
           </div>

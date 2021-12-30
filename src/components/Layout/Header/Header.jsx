@@ -31,7 +31,7 @@ export default class Header extends React.Component {
             </div>
             <div className="nav__link">
               <a href="/services" id="services">
-                Services <i class="fas fa-angle-down"></i>
+                Services <i className="fas fa-angle-down"></i>
               </a>
               <div className="services__sub">
                 <a href="/services/#local">Local Moving</a>
@@ -44,7 +44,7 @@ export default class Header extends React.Component {
 
             <div className="nav__link">
               <a href="/prices" id="prices">
-                Prices <i class="fas fa-angle-down"></i>
+                Prices <i className="fas fa-angle-down"></i>
               </a>
               <div className="services__sub">
                 <a href="/prices/#local-prices">
@@ -80,8 +80,8 @@ export default class Header extends React.Component {
                 }
               }}
             />
-            <label for="hamburger" style={{ color: this.state.color }}>
-              <i class="fas fa-bars"></i>
+            <label htmlFor="hamburger" style={{ color: this.state.color }}>
+              <i className="fas fa-bars"></i>
             </label>
             <div
               className="hamburger__content"
@@ -92,9 +92,9 @@ export default class Header extends React.Component {
               </div>
               <div className="nav__link">
                 <input type="checkbox" id="services__mobile" />
-                <label for="services__mobile">
-                  Services <i class="fas fa-angle-down"></i>
-                  <i class="fas fa-angle-up"></i>
+                <label htmlFor="services__mobile">
+                  Services <i className="fas fa-angle-down"></i>
+                  <i className="fas fa-angle-up"></i>
                 </label>
                 <div className="services__nav__content">
                   <a
@@ -141,9 +141,9 @@ export default class Header extends React.Component {
               </div>
               <div className="nav__link">
                 <input type="checkbox" id="prices__mobile" />
-                <label for="prices__mobile">
-                  Prices <i class="fas fa-angle-down"></i>
-                  <i class="fas fa-angle-up"></i>
+                <label htmlFor="prices__mobile">
+                  Prices <i className="fas fa-angle-down"></i>
+                  <i className="fas fa-angle-up"></i>
                 </label>
                 <div className="prices__nav__content">
                   <a
@@ -199,7 +199,7 @@ export default class Header extends React.Component {
                     }
                   }}
                 >
-                  <i class="fas fa-times"></i>
+                  <i className="fas fa-times"></i>
                 </a>
               </div>
             </div>

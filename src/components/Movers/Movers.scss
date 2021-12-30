@@ -6,64 +6,65 @@
   margin-bottom: 5rem;
 }
 .movers__card {
-    z-index: 2;
-    background-color: white;
-     border: solid 1px lightgrey;
-     border-radius: 10px;
-     padding: 4rem 1rem;
-     margin-right: 4rem;
+  z-index: 2;
+  background-color: white;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  padding: 4rem 1rem;
+  margin-right: 4rem;
 }
 .card__title {
-    color: #f44336;
-    font-size: 30px;
-    font-weight: bold;
+  color: #f44336;
+  font-size: 30px;
+  font-weight: bold;
 }
 .card__starting {
-    font-size: 20px;
-    color: lightgrey;
+  font-size: 20px;
+  color: lightgrey;
 }
 .card__price {
-    font-size: 40px;
-    color: black;
-    font-weight: bold;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
 }
 .card__included {
-    font-size: 25px;
-    color: #f44336;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid #f44336;
+  font-size: 25px;
+  color: #f44336;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #f44336;
 }
 .option2__title {
-    font-size: 20px;
-    margin-right: 3rem;
+  font-size: 20px;
+  margin-right: 3rem;
 }
 .option2__box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-    i {
-        color: #f44336;
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  i {
+    color: #f44336;
+  }
 }
 .prices__text {
-    font-size: 20px;
-    margin: 0 10%;
-    margin-bottom: 10rem;
-    span {
-        font-weight: bold;
-        color: #f44336;
-    }
+  font-size: 20px;
+  margin: 0 10%;
+  margin-bottom: 10rem;
+  span {
+    font-weight: bold;
+    color: #f44336;
+  }
 }
 
 @media screen and (max-width: 1500px) {
-    .movers__card {
-        margin: 0 auto;
-        margin-bottom: 3rem;
-    }
-    .prices__text {
-        margin: 0 auto;
-        width: 95%;
-    }
+  .movers__card {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 23rem;
+  }
+  .prices__text {
+    margin: 0 auto;
+    width: 95%;
+  }
 }

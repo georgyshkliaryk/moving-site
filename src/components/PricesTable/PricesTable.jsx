@@ -11,10 +11,10 @@ import chicagoImg from "../../assets/images/chicago.jpg";
 const PricesTable = () => {
   return (
     <div className="prices__table__container">
-      <div className="table__title">How can you get our services?</div>
+      {/* <div className="table__title">How can you get our services?</div>
       <div className="table__description" id="local-prices">
         See the table below for fixed hourly rates on moving home.
-      </div>
+      </div> */}
       <div className="table__container">
         {/* <div className="table__subtitle">Local Moving / Office Moving</div>
         <div className="table__box fake">

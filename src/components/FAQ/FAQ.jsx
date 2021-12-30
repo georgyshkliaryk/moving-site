@@ -6,13 +6,13 @@ const FAQ = () => {
     <div className="faq__container">
       <div className="faq__box">
         <div className="faq__title">
-          <i class="fas fa-truck"></i> Moving
+          <i className="fas fa-truck"></i> Moving
         </div>{" "}
         &nbsp;
         <input type="checkbox" id="faq1" defaultChecked />
-        <label for="faq1" className="faq1__label">
-          <i class="fas fa-caret-down" title="Read more"></i>
-          <i class="fas fa-caret-up" title="Read less"></i>
+        <label htmlFor="faq1" className="faq1__label">
+          <i className="fas fa-caret-down" title="Read more"></i>
+          <i className="fas fa-caret-up" title="Read less"></i>
         </label>
         <div className="faq1">
           <div className="faq__card">
@@ -38,17 +38,17 @@ const FAQ = () => {
               <br /> Before the work finishes on the day of the transfer, you
               must pay in full. Cash or credit/debit cards (VISA, MC, Discover,
               Amex) are accepted. Both credit/debit card purchases are subject
-              to a 3% convenience charge. Since we need a signature on credit/debit card
-              payments, the name on the credit card must match the name on the
-              signature. <br />
+              to a 3% convenience charge. Since we need a signature on
+              credit/debit card payments, the name on the credit card must match
+              the name on the signature. <br />
               <br /> For Interstate Moves: <br />
               <br /> Payment must be made by the end of the delivery day. We
               accept cash, as well as credit and debit cards (VISA, MC,
               Discover, Amex). Both credit/debit card purchases are subject to a
-              3% convenience charge. You will save time and money if you have your payment
-              ready ahead of time. Since we need a signature on credit/debit
-              card purchases, the name on the credit card must match the name on
-              the signature.
+              3% convenience charge. You will save time and money if you have
+              your payment ready ahead of time. Since we need a signature on
+              credit/debit card purchases, the name on the credit card must
+              match the name on the signature.
             </div>
           </div>
           <div className="faq__card">
@@ -108,13 +108,13 @@ const FAQ = () => {
 
       <div className="faq__box">
         <div className="faq__title">
-          <i class="fas fa-boxes"></i> Specific Items
+          <i className="fas fa-boxes"></i> Specific Items
         </div>{" "}
         &nbsp;
         <input type="checkbox" id="faq2" />
-        <label for="faq2" className="faq2__label">
-          <i class="fas fa-caret-down" title="Read more"></i>
-          <i class="fas fa-caret-up" title="Read less"></i>
+        <label htmlFor="faq2" className="faq2__label">
+          <i className="fas fa-caret-down" title="Read more"></i>
+          <i className="fas fa-caret-up" title="Read less"></i>
         </label>
         <div className="faq2">
           <div className="faq__card">
@@ -197,13 +197,13 @@ const FAQ = () => {
 
       <div className="faq__box">
         <div className="faq__title">
-          <i class="fas fa-hammer"></i> Equipment
+          <i className="fas fa-hammer"></i> Equipment
         </div>{" "}
         &nbsp;
         <input type="checkbox" id="faq3" />
-        <label for="faq3" className="faq3__label">
-          <i class="fas fa-caret-down" title="Read more"></i>
-          <i class="fas fa-caret-up" title="Read less"></i>
+        <label htmlFor="faq3" className="faq3__label">
+          <i className="fas fa-caret-down" title="Read more"></i>
+          <i className="fas fa-caret-up" title="Read less"></i>
         </label>
         <div className="faq3">
           <div className="faq__card">
@@ -272,13 +272,13 @@ const FAQ = () => {
 
       <div className="faq__box">
         <div className="faq__title">
-          <i class="fas fa-exclamation-triangle"></i> Disclaimer
+          <i className="fas fa-exclamation-triangle"></i> Disclaimer
         </div>{" "}
         &nbsp;
         <input type="checkbox" id="faq4" />
-        <label for="faq4" className="faq4__label">
-          <i class="fas fa-caret-down" title="Read more"></i>
-          <i class="fas fa-caret-up" title="Read less"></i>
+        <label htmlFor="faq4" className="faq4__label">
+          <i className="fas fa-caret-down" title="Read more"></i>
+          <i className="fas fa-caret-up" title="Read less"></i>
         </label>
         <div className="faq4">
           <div className="faq__card">
@@ -391,9 +391,10 @@ const FAQ = () => {
           <div className="faq__card">
             <div className="faq__card__title">Super Strict policy</div>
             <div className="faq__card__text">
-              – Applies to all long distance moves <br /> – The deposit will not be
-              refunded in the case of any cancellation. <br /> – Each rescheduling with
-              less than 5 business days’ notice is subject to a $149 fee
+              – Applies to all long distance moves <br /> – The deposit will not
+              be refunded in the case of any cancellation. <br /> – Each
+              rescheduling with less than 5 business days’ notice is subject to
+              a $149 fee
             </div>
           </div>
         </div>

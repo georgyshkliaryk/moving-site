@@ -38,7 +38,7 @@ const Quote = () => {
       <div className="quote__container">
         <div className="quote wow jackInTheBox" data-wow-delay="0.5s">
           <div className="quote__title">
-            <i class="fas fa-list"></i> Get a free quote now!
+            <i className="fas fa-list"></i> Get a free quote now!
             <div className="quote__title__content">
               Your contact information is safe with us and will not be shared
               with anyone.
@@ -48,7 +48,7 @@ const Quote = () => {
             <div className="input__container">
               <div className="input__flex">
                 <span>
-                  <i class="fas fa-user-alt"></i>
+                  <i className="fas fa-user-alt"></i>
                 </span>
                 <input
                   type="text"
@@ -62,27 +62,27 @@ const Quote = () => {
             </div>
             <div className="input__container">
               <span>
-                <i class="fas fa-envelope"></i>
+                <i className="fas fa-envelope"></i>
               </span>
               <input type="email" name="email" placeholder="Email*" required />
             </div>
             <div className="input__container phone">
               <span>
-                <i class="fas fa-phone-alt"></i>
+                <i className="fas fa-phone-alt"></i>
               </span>
               <input type="phone" name="phone" placeholder="Phone*" required />
             </div>
             <span className="date__text">Desired moving date*</span>
             <div className="input__container date">
               <span>
-                <i class="far fa-calendar-alt"></i>
+                <i className="far fa-calendar-alt"></i>
               </span>
               <input type="date" name="date" required />
             </div>
             <div className="input__container">
               <div className="input__flex">
                 <span>
-                  <i class="fas fa-map-marked-alt"></i>
+                  <i className="fas fa-map-marked-alt"></i>
                 </span>
                 <input
                   type="text"
@@ -101,7 +101,7 @@ const Quote = () => {
             </div>
             <div className="input__container">
               <span>
-                <i class="fas fa-box-open"></i>
+                <i className="fas fa-box-open"></i>
               </span>
               <select name="service" id="">
                 <option value="Local moving">Local moving</option>
@@ -112,7 +112,7 @@ const Quote = () => {
             </div>
             <div className="input__container">
               <span>
-                <i class="fas fa-home"></i>
+                <i className="fas fa-home"></i>
               </span>
               <select name="size" id="">
                 <option value="Room or less apartment">
@@ -146,18 +146,19 @@ const Quote = () => {
           <div className="contacts__content">
             <div className="contacts__links">
               <div>
-                <i class="fas fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;617-764-6461
+                <i className="fas fa-phone-alt"></i>
+                &nbsp;&nbsp;&nbsp;617-764-6461
               </div>
               <div>
-                <i class="fas fa-envelope"></i>
+                <i className="fas fa-envelope"></i>
                 &nbsp;&nbsp;&nbsp;vipmoversboston@gmail.com
               </div>
               <div>
-                <i class="far fa-clock"></i>&nbsp;&nbsp;&nbsp;9am — 6pm
+                <i className="far fa-clock"></i>&nbsp;&nbsp;&nbsp;9am — 6pm
               </div>
               <div>
-                <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;&nbsp;151 31
-                Pearson Rd , Somerville 02144
+                <i className="fas fa-map-marker-alt"></i>&nbsp;&nbsp;&nbsp;151
+                31 Pearson Rd , Somerville 02144
               </div>
             </div>
             <div className="contacts__socials">
@@ -167,7 +168,7 @@ const Quote = () => {
                 title="instagram.com"
                 rel="noreferrer"
               >
-                <i class="fab fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
               </a>
               <a
                 href="https://www.yelp.com/biz/vip-movers-boston-boston"
@@ -175,7 +176,7 @@ const Quote = () => {
                 title="yelp.com"
                 rel="noreferrer"
               >
-                <i class="fab fa-yelp"></i>
+                <i className="fab fa-yelp"></i>
               </a>
             </div>
           </div>
