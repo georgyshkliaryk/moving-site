@@ -3,6 +3,8 @@ import "./Footer.scss";
 import logo3 from "../../../assets/images/main-logo2.png";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="footer__container">
       <div className="footer__menu">
@@ -52,8 +54,8 @@ const Footer = () => {
       </div>
       <div className="footer__info">
         <div>
-          31 Pearson Rd , Somerville 02144, MA. <br /> © 2021 All Rights
-          Reserved. VIP Movers Company.{" "}
+          31 Pearson Rd , Somerville 02144, MA. <br /> © {currentYear} All
+          Rights Reserved. VIP Movers Company.{" "}
         </div>
         <a href="/privacy">Privacy policy</a>
       </div>
