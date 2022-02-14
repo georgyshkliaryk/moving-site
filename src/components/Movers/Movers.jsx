@@ -36,7 +36,7 @@ const Movers = () => {
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
             <div className="option2__title">
-              Studio/1&nbsp;bedroom&nbsp;apartment
+              1/2&nbsp;bedroom&nbsp;apartment
             </div>
             <i className="fas fa-check-circle"></i>
           </div>
@@ -60,7 +60,7 @@ const Movers = () => {
           <div className="card__included">INCLUDED</div>
           <div className="option2__box">
             <div className="option2__title">
-              Studio/1&nbsp;bedroom&nbsp;apartment
+              2/3&nbsp;bedroom&nbsp;apartment
             </div>
             <i className="fas fa-check-circle"></i>
           </div>
