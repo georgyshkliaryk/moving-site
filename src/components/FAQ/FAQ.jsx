@@ -100,7 +100,7 @@ const FAQ = () => {
               <br /> In addition, all workers in the Greater Boston area are
               given a half-hour travel time (15 minutes for our movers to get to
               your address from our office, plus 15 minutes to return when the
-              transfer is completed.) We have a 2-hour fee minimum scheme.
+              transfer is completed.) We have a 3-hour fee minimum scheme.
             </div>
           </div>
         </div>
