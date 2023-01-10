@@ -5,8 +5,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  Redirect
 } from "react-router-dom";
 import AboutPage from './pages/AboutPage/AboutPage';
 import PricesPage from './pages/PricesPage/PricesPage';
@@ -28,7 +26,7 @@ class App extends React.Component {
   return (
     <div className="App">
       <Router>
-      <Switch>
+        <Switch>
           <Route exact path="/">
             <HomePage />
           </Route>

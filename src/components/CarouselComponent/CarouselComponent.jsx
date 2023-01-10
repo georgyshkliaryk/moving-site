@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import "./Carousel.scss";
+import "./CarouselComponent.scss";
 
 import about1 from "../../assets/images/about1.jpeg";
 import about2 from "../../assets/images/about2.jpeg";
@@ -11,9 +11,8 @@ import about6 from "../../assets/images/about6.jpeg";
 import about7 from "../../assets/images/about7.jpeg";
 import about8 from "../../assets/images/about8.jpeg";
 
-export default () => (
+const CarouselComponent = () => (
   <Carousel autoPlay emulateTouch className="carousel__container">
-  
     <div>
       <img
         alt="about1_img"
@@ -57,3 +56,5 @@ export default () => (
     </div>
   </Carousel> 
 );
+
+export default CarouselComponent;

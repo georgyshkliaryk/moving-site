@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.scss";
-import mainLogo from "../../../assets/images/logo_v4.svg";
 import mainLogo3 from "../../../assets/images/main-logo3.png";
 
 export default class Header extends React.Component {
@@ -72,10 +71,10 @@ export default class Header extends React.Component {
               type="checkbox"
               id="hamburger"
               onChange={() => {
-                if (this.state.show == "block") {
+                if (this.state.show === "block") {
                   this.setState({ show: "none", color: "#f44336" });
                 }
-                if (this.state.show == "none") {
+                if (this.state.show === "none") {
                   this.setState({ show: "block", color: "grey" });
                 }
               }}
@@ -189,18 +188,19 @@ export default class Header extends React.Component {
                 </a>
               </div>
               <div className="nav__link">
-                <a
+                <button
+                  className="nav__close"
                   onClick={() => {
-                    if (this.state.show == "block") {
+                    if (this.state.show === "block") {
                       this.setState({ show: "none", color: "#f44336" });
                     }
-                    if (this.state.show == "none") {
+                    if (this.state.show === "none") {
                       this.setState({ show: "block", color: "grey" });
                     }
                   }}
                 >
-                  <i className="fas fa-times"></i>
-                </a>
+                  <i className="fas fa-times" />
+                </button>
               </div>
             </div>
           </div>

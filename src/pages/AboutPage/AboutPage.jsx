@@ -4,8 +4,7 @@ import Header from '../../components/Layout/Header/Header';
 import About from '../../components/About/About';
 import WhyUs from '../../components/WhyUs/WhyUs';
 import Quote from '../../components/Quote/Quote';
-
-import Carousel from "../../components/Carousel/Carousel";
+import CarouselComponent from "../../components/CarouselComponent/CarouselComponent";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Yelp from '../../components/Yelp/Yelp';
 
@@ -16,7 +15,7 @@ const AboutPage = () => {
            <About />
            <Yelp />
            <WhyUs />
-           <Carousel />
+           <CarouselComponent />
            <Quote />
            <Footer />
         </div>

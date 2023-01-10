@@ -1,9 +1,5 @@
 import React from "react";
 import "./Offers.scss";
-import localMoving from "../../assets/images/local_moving.svg";
-import longMoving from "../../assets/images/long_moving.svg";
-import packing from "../../assets/images/packing.svg";
-import office from "../../assets/images/office.svg";
 import localImg from "../../assets/images/services-local.webp";
 import longImg from "../../assets/images/services-long.jpg";
 import packingImg from "../../assets/images/services-packing.jpg";
